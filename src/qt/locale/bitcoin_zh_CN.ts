@@ -538,7 +538,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>未进行权益增值，因为钱包中没有成熟的美基金</translation>
+        <translation>未进行权益增值，因为钱包中没有成熟的虚拟人民币</translation>
     </message>
     <message>
         <location line="-812"/>
@@ -548,12 +548,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+6"/>
         <source>&amp;Receive</source>
-        <translation>接收美基金(&amp;R)</translation>
+        <translation>接收虚拟人民币(&amp;R)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send</source>
-        <translation>发送美基金(&amp;S)</translation>
+        <translation>发送虚拟人民币(&amp;S)</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -608,7 +608,7 @@ Address: %4
         <location line="-15"/>
         <location line="+15"/>
         <source>URI can not be parsed! This can be caused by an invalid CNY address or malformed URI parameters.</source>
-        <translation>无法解析URI：无效的美基金地址或错误的URI参数。</translation>
+        <translation>无法解析URI：无效的虚拟人民币地址或错误的URI参数。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -731,7 +731,7 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
         <source>A fatal error occurred. CNY can no longer continue safely and will quit.</source>
-        <translation>发生严重错误，美基金客户端即将关闭。</translation>
+        <translation>发生严重错误，虚拟人民币客户端即将关闭。</translation>
     </message>
 </context>
 <context>
@@ -747,7 +747,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>美基金控制</translation>
+        <translation>虚拟人民币控制</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1002,7 +1002,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid CNY address.</source>
-        <translation>“%1” 不是有效的美基金地址。</translation>
+        <translation>“%1” 不是有效的虚拟人民币地址。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1021,7 +1021,7 @@ Address: %4
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
         <source>CNY-Qt</source>
-        <translation>美基金客户端CNY-Qt</translation>
+        <translation>虚拟人民币客户端CNY-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1094,12 +1094,12 @@ Address: %4
     <message>
         <location line="+31"/>
         <source>Automatically start CNY after logging in to the system.</source>
-        <translation>开机自动启动美基金客户端</translation>
+        <translation>开机自动启动虚拟人民币客户端</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start CNY on system login</source>
-        <translation>开机时自动启动美基金客户端(&amp;S)</translation>
+        <translation>开机时自动启动虚拟人民币客户端(&amp;S)</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1109,7 +1109,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the CNY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>路由器自动打开美基金客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
+        <translation>路由器自动打开虚拟人民币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1184,17 +1184,17 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting CNY.</source>
-        <translation>在此设置用户界面语言。重启美基金客户端后设置生效。</translation>
+        <translation>在此设置用户界面语言。重启虚拟人民币客户端后设置生效。</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>美基金金额单位(&amp;U)：</translation>
+        <translation>虚拟人民币金额单位(&amp;U)：</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择美基金单位。</translation>
+        <translation>选择虚拟人民币单位。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1204,7 +1204,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>显示美基金控制选项(仅用于专家用户)</translation>
+        <translation>显示虚拟人民币控制选项(仅用于专家用户)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1334,7 +1334,7 @@ Address: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start axfunds: click-to-pay handler</source>
-        <translation>无法启动美基金: 点击支付处理器</translation>
+        <translation>无法启动虚拟人民币: 点击支付处理器</translation>
     </message>
 </context>
 <context>
@@ -1503,7 +1503,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CNY-Qt help message to get a list with possible AXFunds command-line options.</source>
+        <source>Show the CNY-Qt help message to get a list with possible CNY command-line options.</source>
         <translation>显示关于命令行选项的帮助信息。</translation>
     </message>
     <message>
@@ -1524,12 +1524,12 @@ Address: %4
     <message>
         <location line="-104"/>
         <source>CNY - Debug window</source>
-        <translation>美基金客户端-调试窗口</translation>
+        <translation>虚拟人民币客户端-调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>CNY Core</source>
-        <translation>美基金核心进程</translation>
+        <translation>虚拟人民币核心进程</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1549,7 +1549,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
         <source>Welcome to the CNY RPC console.</source>
-        <translation>欢迎使用美基金RPC控制台。</translation>
+        <translation>欢迎使用虚拟人民币RPC控制台。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1720,7 +1720,7 @@ Address: %4
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
         <source>Enter a CNY address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入美基金地址(例如：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>输入虚拟人民币地址(例如：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1815,7 +1815,7 @@ Address: %4
     <message>
         <location line="+241"/>
         <source>WARNING: Invalid CNY address</source>
-        <translation>警告：无效的美基金地址</translation>
+        <translation>警告：无效的虚拟人民币地址</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1889,7 +1889,7 @@ Address: %4
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a CNY address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入一个美基金地址 (例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>输入一个虚拟人民币地址 (例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1950,7 +1950,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this CNY address</source>
-        <translation>对该消息进行签名以证明您对该美基金地址的所有权</translation>
+        <translation>对该消息进行签名以证明您对该虚拟人民币地址的所有权</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1977,12 +1977,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>用来签名该消息的美基金地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>用来签名该消息的虚拟人民币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified CNY address</source>
-        <translation>确认该消息以保证它经由指定的美基金地址签名</translation>
+        <translation>确认该消息以保证它经由指定的虚拟人民币地址签名</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1993,7 +1993,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a CNY address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入美基金地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>输入虚拟人民币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2003,7 +2003,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Enter CNY signature</source>
-        <translation>输入美基金签名</translation>
+        <translation>输入虚拟人民币签名</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2582,7 +2582,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
         <source>CNY version</source>
-        <translation>美基金客户端 版本</translation>
+        <translation>虚拟人民币客户端 版本</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2760,7 +2760,7 @@ alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
     <message>
         <location line="+46"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CNY will not work properly.</source>
-        <translation>警告：请确认您计算机的本地时间。如果时钟错误，美基金客户端将不能正常工作。</translation>
+        <translation>警告：请确认您计算机的本地时间。如果时钟错误，虚拟人民币客户端将不能正常工作。</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3059,7 +3059,7 @@ alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
     <message>
         <location line="+8"/>
         <source>Initialization sanity check failed. CNY is shutting down.</source>
-        <translation>初始化完整性检查失败。 美基金客户端即将关闭。</translation>
+        <translation>初始化完整性检查失败。 虚拟人民币客户端即将关闭。</translation>
     </message>
     <message>
         <location line="+20"/>
