@@ -53,8 +53,8 @@ public:
         pchMessageStart[2] = 0x20;
         pchMessageStart[3] = 0x17;
         vAlertPubKey = ParseHex("041f97a158978b88ecafa084610eb007f80fa947bf896eb7046eb4e40c39bb57bd2fd431a9a83c7221f6010cce5d23a5ae789ee5f2a541a95f5212d2ed0eedd814");
-        nDefaultPort = 19344;
-        nRPCPort = 44391 ;
+        nDefaultPort = 18188;
+        nRPCPort = 18189 ;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         
 
@@ -91,33 +91,31 @@ public:
         assert(hashGenesisBlock == uint256("52a542862f874c62249c3ccca99ad6170344686a5f350ffde5b3fd7cf7081fdd"));
         assert(genesis.hashMerkleRoot == uint256("b746b69f230fc846846f232bd5d496d8ac405238d5b919a749835f3938a67dcd"));
 
-
-        vSeeds.push_back(CDNSSeedData("seed.quadrigacx.pro","seed.quadrigacx.pro"));
-        vSeeds.push_back(CDNSSeedData("seed.quadrigacx.pro:1944","seed.quadrigacx.pro:1944"));
-        vSeeds.push_back(CDNSSeedData("seed1.quadrigacx.pro","seed1.quadrigacx.pro"));
-        vSeeds.push_back(CDNSSeedData("seed2.quadrigacx.pro","seed2.quadrigacx.pro"));
-        vSeeds.push_back(CDNSSeedData("seed3.quadrigacx.pro","seed3.quadrigacx.pro"));
-        vSeeds.push_back(CDNSSeedData("seed4.quadrigacx.pro","seed4.quadrigacx.pro"));
-        vSeeds.push_back(CDNSSeedData("seed5.quadrigacx.pro","seed5.quadrigacx.pro"));        
-        vSeeds.push_back(CDNSSeedData("dnsseed.axfunds.com", "dnsseed.axfunds.com"));
-        vSeeds.push_back(CDNSSeedData("axfunds.com", "seed.axfunds.com"));
-        vSeeds.push_back(CDNSSeedData("117.41.187.53","117.41.187.53"));
-        vSeeds.push_back(CDNSSeedData("211.149.241.6","211.149.241.6"));
-        vSeeds.push_back(CDNSSeedData("211.149.226.228","211.149.226.228"));
-        vSeeds.push_back(CDNSSeedData("211.149.177.209","211.149.177.209"));
+        vSeeds.push_back(CDNSSeedData("1.youmebank.com:18188","1.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("2.youmebank.com:18188","2.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("3.youmebank.com:18188","3.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("4.youmebank.com:18188","4.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("5.youmebank.com:18188","5.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("6.youmebank.com:18188","6.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("1.youmebank.com","1.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("2.youmebank.com","2.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("3.youmebank.com","3.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("4.youmebank.com","4.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("5.youmebank.com","5.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("6.youmebank.com","6.youmebank.com"));
         vSeeds.push_back(CDNSSeedData("",""));
 
-        vSeeds.push_back(CDNSSeedData("106.187.39.23", "106.187.39.23"));
-        vSeeds.push_back(CDNSSeedData("106.187.39.23:19344","106.187.39.23:19344"));
-        vSeeds.push_back(CDNSSeedData("125.69.76.248","125.69.76.248"));
-        vSeeds.push_back(CDNSSeedData("125.69.76.248:19344","125.69.76.248:19344"));
-        vSeeds.push_back(CDNSSeedData("108.61.191.77","108.61.191.77"));
-        vSeeds.push_back(CDNSSeedData("108.61.191.77:19344","108.61.191.77:19344"));
+        vSeeds.push_back(CDNSSeedData("103.45.29.134", "103.45.29.1343"));
+        vSeeds.push_back(CDNSSeedData("103.45.29.134:18188","103.45.29.134:18188"));
+        vSeeds.push_back(CDNSSeedData("103.45.15.140","103.45.15.140"));
+        vSeeds.push_back(CDNSSeedData("103.45.15.140:18188","103.45.15.140:18188"));
+        vSeeds.push_back(CDNSSeedData("182.18.21.43","182.18.21.43"));
+        vSeeds.push_back(CDNSSeedData("182.18.21.43:18188","182.18.21.43:18188"));
+        vSeeds.push_back(CDNSSeedData("103.45.107.197","103.45.107.197"));
+        vSeeds.push_back(CDNSSeedData("103.45.107.197:18188","103.45.107.197:18188"));
+        vSeeds.push_back(CDNSSeedData("103.45.130.54","103.45.130.54"));
+        vSeeds.push_back(CDNSSeedData("103.45.130.54:18188","103.45.130.54:18188"));
         vSeeds.push_back(CDNSSeedData("",""));
-        
-
-
-
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);

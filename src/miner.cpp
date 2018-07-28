@@ -264,8 +264,12 @@ CBlock* CreateNewBlock(CReserveKey& reservekey, bool fProofOfStake, int64_t* pFe
                 continue;
 
             int64_t nTxFees = tx.GetValueIn(mapInputs)-tx.GetValueOut();
+            
             if (nTxFees < nMinFee)
                 continue;
+
+            // Charge fixed amount per transaction.
+            // int64_t nTxFees = DEFAULT_TX_FEE;
 
             nTxSigOps += GetP2SHSigOpCount(tx, mapInputs);
             if (nBlockSigOps + nTxSigOps >= MAX_BLOCK_SIGOPS)

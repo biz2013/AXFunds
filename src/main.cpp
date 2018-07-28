@@ -973,10 +973,12 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees)
 {
-    int64_t nSubsidy =  0.01*COIN;
-   
+    //int64_t nSubsidy =  0.01*COIN;
+    int64_t nSubsidy =  0; // no reward for POW
+
+    // Reward INITIAL_MONEY at first block after genesis block.
     if (nHeight==1)
-        nSubsidy = 83900000 * COIN;
+        nSubsidy = INITIAL_MONEY * COIN;
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);
 
@@ -986,20 +988,19 @@ int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees)
 // miner's coin stake reward
 int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, int64_t nFees)
 {
-    int64_t nSubsidy;
-    if (IsProtocolV3(pindexPrev->nTime))
-        nSubsidy = 0 * COIN * 3 / 2;
-    else
-        nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
+    int64_t nSubsidy = POS_BLOCK_REWARD; // Fixed pos reward
+    // if (IsProtocolV3(pindexPrev->nTime))
+    //     nSubsidy = 0 * COIN * 3 / 2;
+    // else
+    //     nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 
-    int64_t nTotal = nSubsidy + nFees + 0.01*COIN; // 0.01 for pos reward 
-    LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n nTotal=%d", FormatMoney(nSubsidy), nCoinAge,nTotal);
-   
+    // int64_t nTotal = nSubsidy + nFees + 0.01*COIN; // 0.01 for pos reward 
+    int64_t nTotal = nFees + nSubsidy;  
 
+    LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n nTotal=%d", FormatMoney(nSubsidy), nCoinAge, nTotal);
 
     // if (nTotal==0)
     //     nTotal = 100000;  / 0.01 for pos reward  if there is no transactions
-    
 
     return nTotal;
 }
