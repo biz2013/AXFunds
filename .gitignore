@@ -22,6 +22,7 @@ src/build.h
 *.qm
 Makefile
 blackcoin-qt
+/cnyfund-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
