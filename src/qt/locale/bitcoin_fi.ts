@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AXFunds</source>
+        <source>About CnyFund</source>
         <translation>Tietoa AXFundista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AXFunds&lt;/b&gt;-asiakasohjelman versio</translation>
+        <source>&lt;b&gt;CnyFund&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CnyFund&lt;/b&gt;-asiakasohjelman versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The AXFunds developers</source>
+Copyright © 2014 The CnyFund developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The AXFunds developers</translation>
+Copyright © 2014 The CnyFund developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,8 +66,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat AXFunds-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your CnyFund addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat CnyFund-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -81,8 +81,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a AXFunds address</source>
-        <translation>Allekirjoita viesti osoittaaksesi AXFunds-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a CnyFund address</source>
+        <translation>Allekirjoita viesti osoittaaksesi CnyFund-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen AXFunds-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified CnyFund address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen CnyFund-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -233,7 +233,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja hukkaat salasanasi, &lt;b&gt;MENETÄT KAIKKI AXFUNDISI&lt;/b&gt;!</translation>
+        <translation>Varoitus: Jos salaat lompakkosi ja hukkaat salasanasi, &lt;b&gt;MENETÄT KAIKKI CNYFUNDISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -264,8 +264,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+82"/>
-        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>AXFunds-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>CnyFund will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CnyFund-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -358,7 +358,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AXFunds</source>
+        <source>Show information about CnyFund</source>
         <translation>Näytä tietoja AXFundista</translation>
     </message>
     <message>
@@ -398,12 +398,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a AXFunds address</source>
-        <translation>Lähetä kolikoita AXFunds-osoitteeseen</translation>
+        <source>Send coins to a CnyFund address</source>
+        <translation>Lähetä kolikoita CnyFund-osoitteeseen</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for AXFunds</source>
+        <source>Modify configuration options for CnyFund</source>
         <translation>Mukauta asiakasohjelman asetuksia</translation>
     </message>
     <message>
@@ -444,8 +444,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>AXFunds</source>
-        <translation>AXFunds</translation>
+        <source>CnyFund</source>
+        <translation>CnyFund</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -454,7 +454,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About AXFunds</source>
+        <source>&amp;About CnyFund</source>
         <translation>&amp;Tietoa AXFundista</translation>
     </message>
     <message>
@@ -506,13 +506,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>AXFunds client</source>
-        <translation>AXFunds-asiakasohjelma</translation>
+        <source>CnyFund client</source>
+        <translation>CnyFund-asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to AXFunds network</source>
-        <translation><numerusform>%n aktiivinen yhteys AXFunds-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä AXFunds-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to CnyFund network</source>
+        <translation><numerusform>%n aktiivinen yhteys CnyFund-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä CnyFund-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä AXFunds-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CnyFund address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä CnyFund-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
-        <translation>Virhe kohdattu. AXFunds-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
+        <source>A fatal error occurred. CnyFund can no longer continue safely and will quit.</source>
+        <translation>Virhe kohdattu. CnyFund-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
     </message>
 </context>
 <context>
@@ -1004,8 +1004,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty AXFunds-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CnyFund address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty CnyFund-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1023,8 +1023,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>AXFunds-Qt</source>
-        <translation>AXFunds-Qt</translation>
+        <source>CnyFund-Qt</source>
+        <translation>CnyFund-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1096,13 +1096,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AXFunds after logging in to the system.</source>
-        <translation>Käynnistä AXFunds-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start CnyFund after logging in to the system.</source>
+        <translation>Käynnistä CnyFund-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AXFunds on system login</source>
-        <translation>%Käynnistä AXFunds-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start CnyFund on system login</source>
+        <translation>%Käynnistä CnyFund-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1111,8 +1111,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa AXFunds-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the CnyFund client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa CnyFund-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1141,8 +1141,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä Axfunds-verkkoon SOCKS5-välityspalvelimen kautta (esim. kun yhdistetään Tor:lla).</translation>
+        <source>Connect to the CnyFund network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä CnyFund-verkkoon SOCKS5-välityspalvelimen kautta (esim. kun yhdistetään Tor:lla).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1186,8 +1186,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta AXFunds-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CnyFund.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta CnyFund-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1243,8 +1243,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AXFunds.</source>
-        <translation>Tämä asetus tulee voimaan vasta AXFunds-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting CnyFund.</source>
+        <translation>Tämä asetus tulee voimaan vasta CnyFund-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1262,8 +1262,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti AXFunds-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CnyFund network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti CnyFund-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1336,8 +1336,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start axfunds: click-to-pay handler</source>
-        <translation>Axfunds-asiakasohjelmaa ei voida käynnistää: klikkaa maksaaksesi-käsittelijä</translation>
+        <source>Cannot start cnyfund: click-to-pay handler</source>
+        <translation>CnyFund-asiakasohjelmaa ei voida käynnistää: klikkaa maksaaksesi-käsittelijä</translation>
     </message>
 </context>
 <context>
@@ -1506,8 +1506,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
-        <translation>Näytä AXFunds-Qt:n avustusohje saadaksesi listan käytettävistä AXFundin komentokehotteen määritteistä.</translation>
+        <source>Show the CnyFund-Qt help message to get a list with possible CnyFund command-line options.</source>
+        <translation>Näytä CnyFund-Qt:n avustusohje saadaksesi listan käytettävistä AXFundin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1526,12 +1526,12 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>AXFunds - Debug window</source>
-        <translation>AXFunds - Debug-ikkuna</translation>
+        <source>CnyFund - Debug window</source>
+        <translation>CnyFund - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AXFunds Core</source>
+        <source>CnyFund Core</source>
         <translation>AXFundin ydin</translation>
     </message>
     <message>
@@ -1541,8 +1541,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa AXFunds-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the CnyFund debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa CnyFund-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1551,7 +1551,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the AXFunds RPC console.</source>
+        <source>Welcome to the CnyFund RPC console.</source>
         <translation>Tervetuloa AXFundin RPC-konsoliin.</translation>
     </message>
     <message>
@@ -1722,8 +1722,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä AXFunds-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CnyFund-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1817,8 +1817,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid AXFunds address</source>
-        <translation>VAROITUS: Epäkelpo AXFunds-osoite</translation>
+        <source>WARNING: Invalid CnyFund address</source>
+        <translation>VAROITUS: Epäkelpo CnyFund-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1891,8 +1891,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä AXFunds-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CnyFund-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1952,8 +1952,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AXFunds address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän AXFunds-osoitteen</translation>
+        <source>Sign the message to prove you own this CnyFund address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän CnyFund-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1984,8 +1984,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä AXFunds-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified CnyFund address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä CnyFund-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1995,8 +1995,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä AXFunds-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä CnyFund-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2005,8 +2005,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AXFunds signature</source>
-        <translation>Syötä AXFunds-allekirjoitus</translation>
+        <source>Enter CnyFund signature</source>
+        <translation>Syötä CnyFund-allekirjoitus</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2584,7 +2584,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>AXFunds version</source>
+        <source>CnyFund version</source>
         <translation>AXFundin versio</translation>
     </message>
     <message>
@@ -2594,8 +2594,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or axfd</source>
-        <translation>Syötä komento kohteeseen -server tai axfd</translation>
+        <source>Send command to -server or cnyfund</source>
+        <translation>Syötä komento kohteeseen -server tai cnyfund</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2614,13 +2614,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: axf.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: axf.conf)</translation>
+        <source>Specify configuration file (default: cnyfund.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: cnyfund.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: axfd.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: axfunds.pid)</translation>
+        <source>Specify pid file (default: cnyfund.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: cnyfund.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2637,21 +2637,21 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=axfundrpc
+rpcuser=cnyfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
-On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=axfundrpc
+On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=cnyfundrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa) Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2751,8 +2751,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, AXFunds ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CnyFund will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, CnyFund ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3046,8 +3046,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
-        <translation>Käyttöönottotarkistus epäonnistui. AXFunds-asiakasohjelma suljetaan.</translation>
+        <source>Initialization sanity check failed. CnyFund is shutting down.</source>
+        <translation>Käyttöönottotarkistus epäonnistui. CnyFund-asiakasohjelma suljetaan.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3101,13 +3101,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version AXFunds-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CnyFund</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version CnyFund-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä AXFunds-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart CnyFund to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä CnyFund-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3166,8 +3166,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. AXFunds-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. CnyFund is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. CnyFund-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3196,8 +3196,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
-        <translation>Lukkotiedostoa ei voida saada haltuun datahakemistossa %s. AXFunds on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. CnyFund is probably already running.</source>
+        <translation>Lukkotiedostoa ei voida saada haltuun datahakemistossa %s. CnyFund on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="+4"/>

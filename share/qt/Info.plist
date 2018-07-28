@@ -7,23 +7,23 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AXFunds-Qt</string>
+	<string>CnyFund-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>AXFunds-Qt</string>
+	<string>CnyFund-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.axfunds.AXFunds-Qt</string>
+	<string>co.cnyfund.CnyFund-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.axfunds.AXFundPayment</string>
+            <string>co.cnyfund.CnyFundPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>axfunds</string>
+              <string>cnyfund</string>
             </array>
           </dict>
         </array>

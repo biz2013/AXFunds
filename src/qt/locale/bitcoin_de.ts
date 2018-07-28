@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AXFunds</source>
-        <translation>Über AXFunds</translation>
+        <source>About CnyFund</source>
+        <translation>Über CnyFund</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AXFunds&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;CnyFund&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CnyFund&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The AXFunds developers</source>
+Copyright © 2014 The CnyFund developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre AXFunds Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
+        <source>These are your CnyFund addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Das sind Ihre CnyFund Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -78,8 +78,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a AXFunds address</source>
-        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine AXFunds Adresse besitzen</translation>
+        <source>Sign a message to prove you own a CnyFund address</source>
+        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine CnyFund Adresse besitzen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
-        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten AXFunds Adresse signiert wurde</translation>
+        <source>Verify a message to ensure it was signed with a specified CnyFund address</source>
+        <translation>Verifizieren Sie ob eine Nachricht einer bestimmten CnyFund Adresse signiert wurde</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+82"/>
-        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>AXFunds wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
+        <source>CnyFund will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CnyFund wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -355,8 +355,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AXFunds</source>
-        <translation>Informationen über AXFunds anzeigen</translation>
+        <source>Show information about CnyFund</source>
+        <translation>Informationen über CnyFund anzeigen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -395,13 +395,13 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a AXFunds address</source>
-        <translation>Senden Sie Coins an eine AXFunds Adresse</translation>
+        <source>Send coins to a CnyFund address</source>
+        <translation>Senden Sie Coins an eine CnyFund Adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for AXFunds</source>
-        <translation>Konfigurationsoptionen für AXFunds ändern</translation>
+        <source>Modify configuration options for CnyFund</source>
+        <translation>Konfigurationsoptionen für CnyFund ändern</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -441,8 +441,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>AXFunds</source>
-        <translation>AXFunds</translation>
+        <source>CnyFund</source>
+        <translation>CnyFund</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -451,8 +451,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About AXFunds</source>
-        <translation>&amp;Über AXFunds</translation>
+        <source>&amp;About CnyFund</source>
+        <translation>&amp;Über CnyFund</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,13 +503,13 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>AXFunds client</source>
-        <translation>AXFunds Anwendung</translation>
+        <source>CnyFund client</source>
+        <translation>CnyFund Anwendung</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to AXFunds network</source>
-        <translation><numerusform>%n aktive Verbindung zum AXFunds Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum AXFunds Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to CnyFund network</source>
+        <translation><numerusform>%n aktive Verbindung zum CnyFund Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum CnyFund Netzwerk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -602,8 +602,8 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
-        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige AXFunds Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CnyFund address or malformed URI parameters.</source>
+        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige CnyFund Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -726,8 +726,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. AXFunds kann nicht fortgesetzt werden und wird beendet.</translation>
+        <source>A fatal error occurred. CnyFund can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler ist aufgetreten. CnyFund kann nicht fortgesetzt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -992,8 +992,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige AXFunds Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CnyFund address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige CnyFund Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1011,8 +1011,8 @@ Adresse: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>AXFunds-Qt</source>
-        <translation>AXFunds-Qt
+        <source>CnyFund-Qt</source>
+        <translation>CnyFund-Qt
 </translation>
     </message>
     <message>
@@ -1085,13 +1085,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AXFunds after logging in to the system.</source>
-        <translation>Automatisch AXFunds starten beim Einloggen in das System.</translation>
+        <source>Automatically start CnyFund after logging in to the system.</source>
+        <translation>Automatisch CnyFund starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AXFunds on system login</source>
-        <translation>&amp;Starte AXFunds bei Systemstart</translation>
+        <source>&amp;Start CnyFund on system login</source>
+        <translation>&amp;Starte CnyFund bei Systemstart</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1100,8 +1100,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den AXFunds client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the CnyFund client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den CnyFund client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1130,7 +1130,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the CnyFund network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1175,7 +1175,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CnyFund.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1186,7 +1186,7 @@ Adresse: %4</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von AXFunds angezeigt werden soll.</translation>
+        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von CnyFund angezeigt werden soll.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1201,7 +1201,7 @@ Adresse: %4</translation>
     <message>
         <location line="+7"/>
         <source>Use black visual theme (requires restart)</source>
-        <translation>Verwende das schwarze Axfunds Wallet Design (Neustart erforderlich)</translation>
+        <translation>Verwende das schwarze CnyFund Wallet Design (Neustart erforderlich)</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1232,7 +1232,7 @@ Adresse: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AXFunds.</source>
+        <source>This setting will take effect after restarting CnyFund.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1251,8 +1251,8 @@ Adresse: %4</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem AXFunds Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CnyFund network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem CnyFund Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1325,7 +1325,7 @@ Adresse: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start axfunds: click-to-pay handler</source>
+        <source>Cannot start cnyfund: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1495,7 +1495,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
+        <source>Show the CnyFund-Qt help message to get a list with possible CnyFund command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1515,13 +1515,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>AXFunds - Debug window</source>
-        <translation>AXFunds - Debug Fenster</translation>
+        <source>CnyFund - Debug window</source>
+        <translation>CnyFund - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AXFunds Core</source>
-        <translation>AXFunds Kern</translation>
+        <source>CnyFund Core</source>
+        <translation>CnyFund Kern</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1530,8 +1530,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Offne die Axfunds Fehlerlogs aus dem Datenverzeichnis. Diese Funktion kann bei größeren Log-Files länger benötigen.</translation>
+        <source>Open the CnyFund debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Offne die CnyFund Fehlerlogs aus dem Datenverzeichnis. Diese Funktion kann bei größeren Log-Files länger benötigen.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1540,8 +1540,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the AXFunds RPC console.</source>
-        <translation>Willkommen zur Axfunds RPC Anwendung.</translation>
+        <source>Welcome to the CnyFund RPC console.</source>
+        <translation>Willkommen zur CnyFund RPC Anwendung.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1712,7 +1712,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Empfängeradresse (z.b. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1807,8 +1807,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid AXFunds address</source>
-        <translation>Warnung: Ungültige AXFunds Adresse</translation>
+        <source>WARNING: Invalid CnyFund address</source>
+        <translation>Warnung: Ungültige CnyFund Adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1881,7 +1881,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Empfängeradresse (z.b. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -1942,8 +1942,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AXFunds address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser AXFunds Adresse bist.</translation>
+        <source>Sign the message to prove you own this CnyFund address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser CnyFund Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1974,7 +1974,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
+        <source>Verify the message to ensure it was signed with the specified CnyFund address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1985,7 +1985,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>Empfängeradresse (z.b. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
@@ -1995,8 +1995,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AXFunds signature</source>
-        <translation>AXFunds Signatur eingeben</translation>
+        <source>Enter CnyFund signature</source>
+        <translation>CnyFund Signatur eingeben</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2574,8 +2574,8 @@ Adresse: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>AXFunds version</source>
-        <translation>AXFunds Version</translation>
+        <source>CnyFund version</source>
+        <translation>CnyFund Version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2584,8 +2584,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or axfd</source>
-        <translation>Kommando versenden an -server oder axfd </translation>
+        <source>Send command to -server or cnyfund</source>
+        <translation>Kommando versenden an -server oder cnyfund </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2604,13 +2604,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: axf.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: axf.conf)</translation>
+        <source>Specify configuration file (default: cnyfund.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: cnyfund.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: axfd.pid)</source>
-        <translation>PID Datei angeben (Standard: axfunds.pid)</translation>
+        <source>Specify pid file (default: cnyfund.pid)</source>
+        <translation>PID Datei angeben (Standard: cnyfund.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,13 +2627,13 @@ Adresse: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=axfundrpc
+rpcuser=cnyfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2734,8 +2734,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird AXFunds nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CnyFund will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird CnyFund nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3029,7 +3029,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
+        <source>Initialization sanity check failed. CnyFund is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3084,13 +3084,13 @@ for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der AXFunds Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CnyFund</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der CnyFund Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die AXFunds Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart CnyFund to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die CnyFund Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3149,7 +3149,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CnyFund is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
@@ -3179,7 +3179,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CnyFund is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

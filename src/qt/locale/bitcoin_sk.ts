@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AXFunds</source>
-        <translation>O AXFunds</translation>
+        <source>About CnyFund</source>
+        <translation>O CnyFund</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
-        <translation>Verzia &lt;b&gt;AXFunds&lt;/b&gt;</translation>
+        <source>&lt;b&gt;CnyFund&lt;/b&gt; version</source>
+        <translation>Verzia &lt;b&gt;CnyFund&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The AXFunds developers</source>
+Copyright © 2014 The CnyFund developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The AXFunds developers</translation>
+Copyright © 2014 The CnyFund developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše AXFunds adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your CnyFund addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše CnyFund adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a AXFunds address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto AXFunds adresu</translation>
+        <source>Sign a message to prove you own a CnyFund address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto CnyFund adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou AXFunds adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified CnyFund address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou CnyFund adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>AXFunds sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>CnyFund will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>CnyFund sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AXFunds</source>
-        <translation>Zobraziť informácie o AXFunds</translation>
+        <source>Show information about CnyFund</source>
+        <translation>Zobraziť informácie o CnyFund</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a AXFunds address</source>
-        <translation>Poslať mince na AXFunds adresu</translation>
+        <source>Send coins to a CnyFund address</source>
+        <translation>Poslať mince na CnyFund adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for AXFunds</source>
-        <translation>Upraviť možnosti konfigurácie pre AXFunds</translation>
+        <source>Modify configuration options for CnyFund</source>
+        <translation>Upraviť možnosti konfigurácie pre CnyFund</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>AXFunds</source>
-        <translation>AXFunds</translation>
+        <source>CnyFund</source>
+        <translation>CnyFund</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About AXFunds</source>
-        <translation>&amp;O AXFunds</translation>
+        <source>&amp;About CnyFund</source>
+        <translation>&amp;O CnyFund</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>AXFunds client</source>
-        <translation>AXFunds klient</translation>
+        <source>CnyFund client</source>
+        <translation>CnyFund klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to AXFunds network</source>
-        <translation><numerusform>%n aktívne spojenie s AXFunds sieťov</numerusform><numerusform>%n aktívnych spojení s AXFunds sieťov</numerusform><numerusform>%n aktívnych spojení s AXFunds sieťou</numerusform></translation>
+        <source>%n active connection(s) to CnyFund network</source>
+        <translation><numerusform>%n aktívne spojenie s CnyFund sieťov</numerusform><numerusform>%n aktívnych spojení s CnyFund sieťov</numerusform><numerusform>%n aktívnych spojení s CnyFund sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou AXFunds adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CnyFund address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou CnyFund adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. AXFunds už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. CnyFund can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. CnyFund už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1003,8 +1003,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou AXFunds adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CnyFund address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou CnyFund adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1022,8 +1022,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>AXFunds-Qt</source>
-        <translation>AXFunds-Qt</translation>
+        <source>CnyFund-Qt</source>
+        <translation>CnyFund-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1095,13 +1095,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AXFunds after logging in to the system.</source>
-        <translation>Automaticky spustiť AXFunds po prihlásení sa do systému.</translation>
+        <source>Automatically start CnyFund after logging in to the system.</source>
+        <translation>Automaticky spustiť CnyFund po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AXFunds on system login</source>
-        <translation>&amp;Spustiť AXFunds pri prihlásení do systému</translation>
+        <source>&amp;Start CnyFund on system login</source>
+        <translation>&amp;Spustiť CnyFund pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1110,8 +1110,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta AXFunds na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the CnyFund client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta CnyFund na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1140,8 +1140,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť k sieti AXFunds cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the CnyFund network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojiť k sieti CnyFund cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1185,8 +1185,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní AXFunds.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CnyFund.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní CnyFund.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1242,8 +1242,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AXFunds.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní AXFunds.</translation>
+        <source>This setting will take effect after restarting CnyFund.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní CnyFund.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1261,8 +1261,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou AXFunds po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CnyFund network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou CnyFund po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start axfunds: click-to-pay handler</source>
-        <translation>AXFunds sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start cnyfund: click-to-pay handler</source>
+        <translation>CnyFund sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1505,8 +1505,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
-        <translation>Zobraziť AXFunds-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku AXFunds.</translation>
+        <source>Show the CnyFund-Qt help message to get a list with possible CnyFund command-line options.</source>
+        <translation>Zobraziť CnyFund-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku CnyFund.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1525,13 +1525,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>AXFunds - Debug window</source>
-        <translation>AXFunds - Ladiace okno</translation>
+        <source>CnyFund - Debug window</source>
+        <translation>CnyFund - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AXFunds Core</source>
-        <translation>Jadro AXFunds</translation>
+        <source>CnyFund Core</source>
+        <translation>Jadro CnyFund</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1540,8 +1540,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Axfunds súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the CnyFund debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte CnyFund súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1550,8 +1550,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the AXFunds RPC console.</source>
-        <translation>Vitajte v konzole Axfunds RPC.</translation>
+        <source>Welcome to the CnyFund RPC console.</source>
+        <translation>Vitajte v konzole CnyFund RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1721,8 +1721,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte AXFunds adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte CnyFund adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1816,8 +1816,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid AXFunds address</source>
-        <translation>UPOZORNENIE: Neplatná AXFunds adresa</translation>
+        <source>WARNING: Invalid CnyFund address</source>
+        <translation>UPOZORNENIE: Neplatná CnyFund adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1890,8 +1890,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte AXFunds adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte CnyFund adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1951,8 +1951,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AXFunds address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto AXFunds adresu</translation>
+        <source>Sign the message to prove you own this CnyFund address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto CnyFund adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1983,8 +1983,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou AXFunds adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified CnyFund address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou CnyFund adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1994,8 +1994,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte AXFunds adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte CnyFund adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2004,8 +2004,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AXFunds signature</source>
-        <translation>Zadajte AXFunds podpis</translation>
+        <source>Enter CnyFund signature</source>
+        <translation>Zadajte CnyFund podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2583,8 +2583,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>AXFunds version</source>
-        <translation>Verzia AXFunds</translation>
+        <source>CnyFund version</source>
+        <translation>Verzia CnyFund</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2593,8 +2593,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or axfd</source>
-        <translation>Pošli príkaz na -server alebo axfd</translation>
+        <source>Send command to -server or cnyfund</source>
+        <translation>Pošli príkaz na -server alebo cnyfund</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2613,13 +2613,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: axf.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: axf.conf)</translation>
+        <source>Specify configuration file (default: cnyfund.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: cnyfund.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: axfd.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: axfd.pid)</translation>
+        <source>Specify pid file (default: cnyfund.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: cnyfund.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2636,24 +2636,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=axfundrpc
+rpcuser=cnyfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=axfundrpc
+rpcuser=cnyfundrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;AXFunds upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;CnyFund upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2753,8 +2753,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;AXFunds upozornenie&quot; admin
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny AXFunds nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CnyFund will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny CnyFund nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3048,8 +3048,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;AXFunds upozornenie&quot; admin
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. AXFunds sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. CnyFund is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. CnyFund sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3103,13 +3103,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;AXFunds upozornenie&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu AXFunds</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CnyFund</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu CnyFund</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte AXFunds k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart CnyFund to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte CnyFund k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3168,8 +3168,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;AXFunds upozornenie&quot; admin
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. AXFunds je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. CnyFund is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. CnyFund je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3198,8 +3198,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;AXFunds upozornenie&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. AXFunds je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. CnyFund is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. CnyFund je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

@@ -15,7 +15,7 @@
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014-2018 The AXFunds developers
+Copyright © 2014-2018 The CnyFund developers
 Copyright © 2018 The CNY developers</source>
         <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
 版权所有 © 2012-2014 新星币Novacoin开发组
@@ -1333,7 +1333,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start axfunds: click-to-pay handler</source>
+        <source>Cannot start cnyfund: click-to-pay handler</source>
         <translation>无法启动虚拟人民币: 点击支付处理器</translation>
     </message>
 </context>
@@ -2591,8 +2591,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or axfd</source>
-        <translation>向-server服务器或axfd发送命令</translation>
+        <source>Send command to -server or cnyfund</source>
+        <translation>向-server服务器或cnyfund发送命令</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2614,13 +2614,13 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: axf.conf)</source>
-        <translation>指定配置文件(默认: axf.conf)</translation>
+        <source>Specify configuration file (default: cnyfund.conf)</source>
+        <translation>指定配置文件(默认: cnyfund.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: axfd.pid)</source>
-        <translation>指定pid文件(默认: axfd.pid)</translation>
+        <source>Specify pid file (default: cnyfund.pid)</source>
+        <translation>指定pid文件(默认: cnyfund.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2638,7 +2638,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=axfundrpc
+rpcuser=cnyfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2649,7 +2649,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
         <translation>%s, 必须在配置文件里设置rpc密码:
  %s
 建议使用如下的随机密码:
-rpcuser=axfundrpc
+rpcuser=cnyfundrpc
 rpcpassword=%s
 (不需要记住该密码)
 用户名和密码不能重复。

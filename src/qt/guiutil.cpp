@@ -84,7 +84,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // NovaCoin: check prefix
-    if(uri.scheme() != QString("axfunds"))
+    if(uri.scheme() != QString("cnyfund"))
         return false;
 
     SendCoinsRecipient rv;
@@ -129,13 +129,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert axfunds:// to axfunds:
+    // Convert cnyfund:// to cnyfund:
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("axfunds://"))
+    if(uri.startsWith("cnyfund://"))
     {
-        uri.replace(0, 12, "axfunds:");
+        uri.replace(0, 12, "cnyfund:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -361,7 +361,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "axfunds.desktop";
+    return GetAutostartDir() / "cnyfund.desktop";
 }
 
 bool GetStartOnSystemStartup()

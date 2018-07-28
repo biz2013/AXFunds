@@ -4,7 +4,7 @@ Makefile.*
 *.stash
 object_script.*
 dogit.sh
-src/axfd
+src/cnyfund
 src/*.exe
 src/blackcoin
 src/blackcoind

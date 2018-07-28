@@ -1,6 +1,6 @@
 [Protocol]
-exec=axfunds-qt '%u'
-protocol=axfunds
+exec=cnyfund-qt '%u'
+protocol=cnyfund
 input=none
 output=none
 helper=true

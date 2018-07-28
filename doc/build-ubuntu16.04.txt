@@ -12,21 +12,21 @@ apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
 // Build console app
 cd src/
 make -f makefile.unix
-strip axfd
+strip cnyfund
 
 Notes:
 
- cd ${AXFUND_DIR}/src
+ cd ${CNYFUND_DIR}/src
  make -f makefile.unix USE_UPNP=
- strip axfd
+ strip cnyfund
 
-The release is built with GCC and then "strip axfd" to strip the debug
+The release is built with GCC and then "strip cnyfund" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 // Build wallet
-cd ${AXFUND_DIR}
+cd ${CNYFUND_DIR}
 qmake
 make
 
 // Run process
-run ./axfd -datadir=../../qb &
+run ./cnyfund -datadir=../../qb &
