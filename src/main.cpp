@@ -978,7 +978,7 @@ int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees)
 
     // Reward INITIAL_MONEY at first block after genesis block.
     if (nHeight==1)
-        nSubsidy = INITIAL_MONEY * COIN;
+        nSubsidy = INITIAL_MONEY;
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);
 
