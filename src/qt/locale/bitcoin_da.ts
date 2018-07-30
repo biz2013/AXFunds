@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CnyFund</source>
-        <translation>Om CnyFund</translation>
+        <source>About AXFunds</source>
+        <translation>Om AXFunds</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CnyFund&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CnyFund&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AXFunds&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CnyFund developers</source>
+Copyright © 2014 The AXFunds developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CnyFund developers</translation>
+Copyright © 2014 The AXFunds developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CnyFund addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine CnyFund adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
+        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine AXFunds adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CnyFund address</source>
-        <translation>Signerer en meddelelse for at bevise du ejer en CnyFund adresse</translation>
+        <source>Sign a message to prove you own a AXFunds address</source>
+        <translation>Signerer en meddelelse for at bevise du ejer en AXFunds adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CnyFund address</source>
-        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret CnyFund adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
+        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret AXFunds adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CnyFund will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CnyFund lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
+        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>AXFunds lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CnyFund</source>
-        <translation>Vis oplysninger om CnyFund</translation>
+        <source>Show information about AXFunds</source>
+        <translation>Vis oplysninger om AXFunds</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CnyFund address</source>
-        <translation>Send mønter til en CnyFund adresse</translation>
+        <source>Send coins to a AXFunds address</source>
+        <translation>Send mønter til en AXFunds adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CnyFund</source>
-        <translation>Ændre indstillingsmuligheder for CnyFund</translation>
+        <source>Modify configuration options for AXFunds</source>
+        <translation>Ændre indstillingsmuligheder for AXFunds</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CnyFund</source>
-        <translation>CnyFund</translation>
+        <source>AXFunds</source>
+        <translation>AXFunds</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CnyFund</source>
-        <translation>&amp;Om CnyFund</translation>
+        <source>&amp;About AXFunds</source>
+        <translation>&amp;Om AXFunds</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CnyFund client</source>
-        <translation>CnyFund klient</translation>
+        <source>AXFunds client</source>
+        <translation>AXFunds klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CnyFund network</source>
-        <translation><numerusform>%n aktiv forbindelse til CnyFund netværk</numerusform><numerusform>%n aktive forbindelser til CnyFund netværk</numerusform></translation>
+        <source>%n active connection(s) to AXFunds network</source>
+        <translation><numerusform>%n aktiv forbindelse til AXFunds netværk</numerusform><numerusform>%n aktive forbindelser til AXFunds netværk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CnyFund address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig CnyFund adresse eller misdannede URI parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig AXFunds adresse eller misdannede URI parametre.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,7 +723,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CnyFund can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
         <translation>Der opstod en fejl under forsøg på at gemme dataene i tegnebogen til den nye placering.</translation>
     </message>
 </context>
@@ -999,8 +999,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CnyFund address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig CnyFund adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig AXFunds adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1018,8 +1018,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CnyFund-Qt</source>
-        <translation>CnyFund-Qt</translation>
+        <source>AXFunds-Qt</source>
+        <translation>AXFunds-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1091,13 +1091,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CnyFund after logging in to the system.</source>
-        <translation>Automatisk start CnyFund efter at have logget ind på systemet.</translation>
+        <source>Automatically start AXFunds after logging in to the system.</source>
+        <translation>Automatisk start AXFunds efter at have logget ind på systemet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CnyFund on system login</source>
-        <translation>&amp;Start CnyFund ved systems login</translation>
+        <source>&amp;Start AXFunds on system login</source>
+        <translation>&amp;Start AXFunds ved systems login</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1106,8 +1106,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CnyFund client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisk åbne CnyFund klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
+        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisk åbne AXFunds klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1136,7 +1136,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CnyFund network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1181,8 +1181,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CnyFund.</source>
-        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af CnyFund tegnebog.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
+        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af AXFunds tegnebog.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1238,8 +1238,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CnyFund.</source>
-        <translation>Denne indstilling vil træde i kraft efter genstart af CnyFund.</translation>
+        <source>This setting will take effect after restarting AXFunds.</source>
+        <translation>Denne indstilling vil træde i kraft efter genstart af AXFunds.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1257,8 +1257,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CnyFund network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med CnyFund netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med AXFunds netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1331,7 +1331,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start cnyfund: click-to-pay handler</source>
+        <source>Cannot start axfunds: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1501,8 +1501,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CnyFund-Qt help message to get a list with possible CnyFund command-line options.</source>
-        <translation>Vis CnyFund-Qt hjælpe besked for at få en liste med mulige CnyFund kommandolinjeparametre.</translation>
+        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
+        <translation>Vis AXFunds-Qt hjælpe besked for at få en liste med mulige AXFunds kommandolinjeparametre.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1521,13 +1521,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CnyFund - Debug window</source>
-        <translation>CnyFund - Debug vindue</translation>
+        <source>AXFunds - Debug window</source>
+        <translation>AXFunds - Debug vindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CnyFund Core</source>
-        <translation>CnyFund Kerne</translation>
+        <source>AXFunds Core</source>
+        <translation>AXFunds Kerne</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1536,8 +1536,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CnyFund debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn CnyFund debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
+        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn AXFunds debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1546,8 +1546,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the CnyFund RPC console.</source>
-        <translation>Velkommen til CnyFund RPC-konsol.</translation>
+        <source>Welcome to the AXFunds RPC console.</source>
+        <translation>Velkommen til AXFunds RPC-konsol.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1717,8 +1717,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en CnyFund-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en AXFunds-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1812,8 +1812,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid CnyFund address</source>
-        <translation>ADVARSEL: Ugyldig CnyFund adresse</translation>
+        <source>WARNING: Invalid AXFunds address</source>
+        <translation>ADVARSEL: Ugyldig AXFunds adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1886,8 +1886,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en CnyFund-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en AXFunds-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1947,8 +1947,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CnyFund address</source>
-        <translation>Underskriv brevet for at bevise du ejer denne CnyFund adresse</translation>
+        <source>Sign the message to prove you own this AXFunds address</source>
+        <translation>Underskriv brevet for at bevise du ejer denne AXFunds adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1979,8 +1979,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CnyFund address</source>
-        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne CnyFund adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
+        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne AXFunds adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1990,8 +1990,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en CnyFund-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en AXFunds-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2000,8 +2000,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CnyFund signature</source>
-        <translation>Indtast CnyFund underskrift</translation>
+        <source>Enter AXFunds signature</source>
+        <translation>Indtast AXFunds underskrift</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2579,8 +2579,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>CnyFund version</source>
-        <translation>CnyFund version</translation>
+        <source>AXFunds version</source>
+        <translation>AXFunds version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2589,8 +2589,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or cnyfund</source>
-        <translation>Send kommando til-server eller cnyfund</translation>
+        <source>Send command to -server or axfd</source>
+        <translation>Send kommando til-server eller axfd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2609,13 +2609,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: cnyfund.conf)</source>
-        <translation>Angiv konfigurationsfil (default: cnyfund.conf)</translation>
+        <source>Specify configuration file (default: axf.conf)</source>
+        <translation>Angiv konfigurationsfil (default: axf.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: cnyfund.pid)</source>
-        <translation>Angiv pid fil (standard: cnyfund.pid)</translation>
+        <source>Specify pid file (default: axfd.pid)</source>
+        <translation>Angiv pid fil (standard: axfd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2632,13 +2632,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cnyfundrpc
+rpcuser=axfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2739,8 +2739,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CnyFund will not work properly.</source>
-        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil CnyFund ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
+        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil AXFunds ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3034,7 +3034,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CnyFund is shutting down.</source>
+        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3089,13 +3089,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CnyFund</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af CnyFund</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af AXFunds</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CnyFund to complete</source>
-        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart CnyFund for fuldføre</translation>
+        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
+        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart AXFunds for fuldføre</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3154,8 +3154,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. CnyFund is probably already running.</source>
-        <translation>Kunne ikke binde sig til% s på denne computer. CnyFund kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
+        <translation>Kunne ikke binde sig til% s på denne computer. AXFunds kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3184,7 +3184,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CnyFund is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

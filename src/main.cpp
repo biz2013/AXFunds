@@ -22,7 +22,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "CnyFund cannot be compiled without assertions."
+# error "AXFunds cannot be compiled without assertions."
 #endif
 
 //
@@ -78,7 +78,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "CnyFund Signed Message:\n";
+const string strMessageMagic = "AXFunds Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -973,12 +973,10 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees)
 {
-    //int64_t nSubsidy =  0.01*COIN;
-    int64_t nSubsidy =  0; // no reward for POW
-
-    // Reward INITIAL_MONEY at first block after genesis block.
+    int64_t nSubsidy =  0.01*COIN;
+   
     if (nHeight==1)
-        nSubsidy = INITIAL_MONEY;
+        nSubsidy = 83900000 * COIN;
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);
 
@@ -988,19 +986,20 @@ int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees)
 // miner's coin stake reward
 int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, int64_t nFees)
 {
-    int64_t nSubsidy = POS_BLOCK_REWARD; // Fixed pos reward
-    // if (IsProtocolV3(pindexPrev->nTime))
-    //     nSubsidy = 0 * COIN * 3 / 2;
-    // else
-    //     nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
+    int64_t nSubsidy;
+    if (IsProtocolV3(pindexPrev->nTime))
+        nSubsidy = 0 * COIN * 3 / 2;
+    else
+        nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 
-    // int64_t nTotal = nSubsidy + nFees + 0.01*COIN; // 0.01 for pos reward 
-    int64_t nTotal = nFees + nSubsidy;  
+    int64_t nTotal = nSubsidy + nFees + 0.01*COIN; // 0.01 for pos reward 
+    LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n nTotal=%d", FormatMoney(nSubsidy), nCoinAge,nTotal);
+   
 
-    LogPrint("creation", "GetProofOfStakeReward(): create=%s nCoinAge=%d\n nTotal=%d", FormatMoney(nSubsidy), nCoinAge, nTotal);
 
     // if (nTotal==0)
     //     nTotal = 100000;  / 0.01 for pos reward  if there is no transactions
+    
 
     return nTotal;
 }
@@ -1035,10 +1034,10 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
         if (nActualSpacing < 0)
             nActualSpacing = nTargetSpacing;
     }
-    // if (IsProtocolV3(pindexLast->nTime)) {
-    //     if (nActualSpacing > nTargetSpacing * 10) //*10
-    //         nActualSpacing = nTargetSpacing * 10;
-    // }
+    if (IsProtocolV3(pindexLast->nTime)) {
+        if (nActualSpacing > nTargetSpacing * 10) //*10
+            nActualSpacing = nTargetSpacing * 10;
+    }
 
     // ppcoin: target change every block
     // ppcoin: retarget with exponential moving toward target spacing
@@ -2651,7 +2650,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("cnyfund-loadblk");
+    RenameThread("axfunds-loadblk");
 
     CImportingNow imp;
 

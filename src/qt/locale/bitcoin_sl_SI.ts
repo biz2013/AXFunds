@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CnyFund</source>
-        <translation>O CnyFund</translation>
+        <source>About AXFunds</source>
+        <translation>O AXFunds</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CnyFund&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CnyFund&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AXFunds&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CnyFund developers</source>
+Copyright © 2014 The AXFunds developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CnyFund addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši CnyFund naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši AXFunds naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CnyFund address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva CnyFund naslova</translation>
+        <source>Sign a message to prove you own a AXFunds address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva AXFunds naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CnyFund address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim CnyFund naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim AXFunds naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CnyFund will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CnyFund se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>AXFunds se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CnyFund</source>
-        <translation>Pokaži informacije o CnyFund</translation>
+        <source>Show information about AXFunds</source>
+        <translation>Pokaži informacije o AXFunds</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CnyFund address</source>
-        <translation>Pošlji kovance na CnyFund naslov</translation>
+        <source>Send coins to a AXFunds address</source>
+        <translation>Pošlji kovance na AXFunds naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CnyFund</source>
-        <translation>Spremeni nastavitve za CnyFund</translation>
+        <source>Modify configuration options for AXFunds</source>
+        <translation>Spremeni nastavitve za Axfunds</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CnyFund</source>
-        <translation>CnyFund</translation>
+        <source>AXFunds</source>
+        <translation>AXFunds</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CnyFund</source>
-        <translation>&amp;O CnyFund</translation>
+        <source>&amp;About AXFunds</source>
+        <translation>&amp;O AXFunds</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CnyFund client</source>
-        <translation>CnyFund program</translation>
+        <source>AXFunds client</source>
+        <translation>AXFunds program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CnyFund network</source>
-        <translation><numerusform>%n aktivne povezave na CnyFund omrežje</numerusform><numerusform>%n aktivnih povezav na CnyFund omrežje</numerusform><numerusform>%n aktivnih povezav na CnyFund omrežje</numerusform><numerusform>%n aktivnih povezav na CnyFund omrežje</numerusform></translation>
+        <source>%n active connection(s) to AXFunds network</source>
+        <translation><numerusform>%n aktivne povezave na AXFunds omrežje</numerusform><numerusform>%n aktivnih povezav na AXFunds omrežje</numerusform><numerusform>%n aktivnih povezav na AXFunds omrežje</numerusform><numerusform>%n aktivnih povezav na AXFunds omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CnyFund address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega CnyFund naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega AXFunds naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CnyFund can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program CnyFund se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program AXFunds se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -997,8 +997,8 @@ Naslov: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CnyFund address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven CnyFund naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven AXFunds naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1016,8 +1016,8 @@ Naslov: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CnyFund-Qt</source>
-        <translation>CnyFund-Qt</translation>
+        <source>AXFunds-Qt</source>
+        <translation>AXFunds-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1089,13 +1089,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CnyFund after logging in to the system.</source>
-        <translation>Avtomatično zaženi CnyFund ob zagonu sistema.</translation>
+        <source>Automatically start AXFunds after logging in to the system.</source>
+        <translation>Avtomatično zaženi AXFunds ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CnyFund on system login</source>
-        <translation>&amp;Zaženi CnyFund ob prijavi v sistem</translation>
+        <source>&amp;Start AXFunds on system login</source>
+        <translation>&amp;Zaženi AXFunds ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1104,8 +1104,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CnyFund client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za CnyFund program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za AXFunds program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1134,7 +1134,7 @@ Naslov: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CnyFund network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1179,8 +1179,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CnyFund.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu CnyFund aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu AXFunds aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1236,8 +1236,8 @@ Naslov: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CnyFund.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu CnyFund aplikacije</translation>
+        <source>This setting will take effect after restarting AXFunds.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu AXFunds aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1255,8 +1255,8 @@ Naslov: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CnyFund network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z CnyFund omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z AXFunds omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1329,7 +1329,7 @@ Naslov: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start cnyfund: click-to-pay handler</source>
+        <source>Cannot start axfunds: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1499,8 +1499,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CnyFund-Qt help message to get a list with possible CnyFund command-line options.</source>
-        <translation>Prikaži CnyFund-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice CnyFund aplikacije</translation>
+        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
+        <translation>Prikaži AXFunds-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice AXFunds aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1519,13 +1519,13 @@ Naslov: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CnyFund - Debug window</source>
-        <translation>CnyFund - okno za odpravljanje napak</translation>
+        <source>AXFunds - Debug window</source>
+        <translation>AXFunds - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CnyFund Core</source>
-        <translation>CnyFund jedro</translation>
+        <source>AXFunds Core</source>
+        <translation>AXFunds jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1534,8 +1534,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CnyFund debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri CnyFund datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri AXFunds datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1544,8 +1544,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the CnyFund RPC console.</source>
-        <translation>Dobrodošli v CnyFund RPC konzoli.</translation>
+        <source>Welcome to the AXFunds RPC console.</source>
+        <translation>Dobrodošli v AXFunds RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1715,8 +1715,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite CnyFund naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite AXFunds naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1810,8 +1810,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid CnyFund address</source>
-        <translation>OPOZORILO: Neveljaven CnyFund naslov</translation>
+        <source>WARNING: Invalid AXFunds address</source>
+        <translation>OPOZORILO: Neveljaven AXFunds naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1884,8 +1884,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite CnyFund naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite AXFunds naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1945,8 +1945,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CnyFund address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva CnyFund naslova</translation>
+        <source>Sign the message to prove you own this AXFunds address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva AXFunds naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1977,8 +1977,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CnyFund address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim CnyFund naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim AXFunds naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1988,8 +1988,8 @@ Naslov: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite CnyFund naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite AXFunds naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1998,8 +1998,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CnyFund signature</source>
-        <translation>Vnesite CnyFund podpis</translation>
+        <source>Enter AXFunds signature</source>
+        <translation>Vnesite AXFunds podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2577,8 +2577,8 @@ Naslov: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>CnyFund version</source>
-        <translation>CnyFund različica</translation>
+        <source>AXFunds version</source>
+        <translation>AXFunds različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2587,7 +2587,7 @@ Naslov: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or cnyfund</source>
+        <source>Send command to -server or axfd</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2607,13 +2607,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: cnyfund.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: cnyfund.conf)</translation>
+        <source>Specify configuration file (default: axf.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: axf.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: cnyfund.pid)</source>
-        <translation>Določi pid datoteko (privzeto: cnyfund.pid)</translation>
+        <source>Specify pid file (default: axfd.pid)</source>
+        <translation>Določi pid datoteko (privzeto: axfunds.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2630,13 +2630,13 @@ Naslov: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cnyfundrpc
+rpcuser=axfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2737,8 +2737,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CnyFund will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno CnyFund ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno AXFunds ne bo deloval.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3032,7 +3032,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CnyFund is shutting down.</source>
+        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3087,13 +3087,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CnyFund</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo CnyFund</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo AXFunds</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CnyFund to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite CnyFund za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite AXFunds za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3152,8 +3152,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. CnyFund is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča CnyFund aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča AXFunds aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3182,7 +3182,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CnyFund is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

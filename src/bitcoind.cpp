@@ -50,12 +50,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("CnyFund version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("AXFunds version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  cnyfund [options]                     " + "\n" +
-                  "  cnyfund [options] <command> [params]  " + _("Send command to -server or cnyfund") + "\n" +
-                  "  cnyfund [options] help                " + _("List commands") + "\n" +
-                  "  cnyfund [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  axfd [options]                     " + "\n" +
+                  "  axfd [options] <command> [params]  " + _("Send command to -server or axfd") + "\n" +
+                  "  axfd [options] help                " + _("List commands") + "\n" +
+                  "  axfd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "cnyfund:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "axfunds:"))
                 fCommandLine = true;
 
         if (fCommandLine)

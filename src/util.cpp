@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "cnyfund";
+    const char* pszModule = "axfunds";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\CnyFund
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\CnyFund
-    // Mac: ~/Library/Application Support/CnyFund
-    // Unix: ~/.cnyfund
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\AXFunds
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\AXFunds
+    // Mac: ~/Library/Application Support/AXFunds
+    // Unix: ~/.axf
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "CnyFund";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "AXF";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "CnyFund";
+    return pathRet / "AXF";
 #else
     // Unix
-    return pathRet / ".cnyfund";
+    return pathRet / ".axf";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "cnyfund.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "axf.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "cnyfund.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "axfd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

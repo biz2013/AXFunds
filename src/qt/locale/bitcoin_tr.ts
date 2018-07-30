@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CnyFund</source>
-        <translation>CnyFund Hakkında</translation>
+        <source>About AXFunds</source>
+        <translation>AXFunds Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CnyFund&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CnyFund&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AXFunds&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CnyFund developers</source>
+Copyright © 2014 The AXFunds developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
-Telif Hakkı © 2014 CnyFund geliştiricileri</translation>
+Telif Hakkı © 2014 AXFunds geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CnyFund addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için CnyFund adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için AXFunds adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CnyFund address</source>
-        <translation>Bir CnyFund adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a AXFunds address</source>
+        <translation>Bir AXFunds adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CnyFund address</source>
-        <translation>Mesajın, belirli bir CnyFund adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
+        <translation>Mesajın, belirli bir AXFunds adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>CnyFund will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CnyFund, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>AXFunds, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CnyFund</source>
-        <translation>CnyFund hakkındaki bilgiyi göster</translation>
+        <source>Show information about AXFunds</source>
+        <translation>AXFunds hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CnyFund address</source>
-        <translation>Bir CnyFund adresine coin gönder</translation>
+        <source>Send coins to a AXFunds address</source>
+        <translation>Bir AXFunds adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CnyFund</source>
-        <translation>CnyFund yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for AXFunds</source>
+        <translation>AXFunds yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CnyFund</source>
-        <translation>CnyFund</translation>
+        <source>AXFunds</source>
+        <translation>AXFunds</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CnyFund</source>
-        <translation>CnyFund &amp;Hakkında</translation>
+        <source>&amp;About AXFunds</source>
+        <translation>AXFunds &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CnyFund client</source>
-        <translation>CnyFund istemcisi</translation>
+        <source>AXFunds client</source>
+        <translation>AXFunds istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CnyFund network</source>
-        <translation><numerusform>CnyFund ağına %n etkin bağlantı</numerusform><numerusform>CnyFund ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to AXFunds network</source>
+        <translation><numerusform>AXFunds ağına %n etkin bağlantı</numerusform><numerusform>AXFunds ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CnyFund address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir CnyFund adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir AXFunds adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CnyFund can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. CnyFund artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. AXFunds artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1004,8 +1004,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CnyFund address.</source>
-        <translation>Girilen %1 adresi, geçerli bir CnyFund adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
+        <translation>Girilen %1 adresi, geçerli bir AXFunds adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1023,8 +1023,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CnyFund-Qt</source>
-        <translation>CnyFund-Qt</translation>
+        <source>AXFunds-Qt</source>
+        <translation>AXFunds-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1096,13 +1096,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CnyFund after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra CnyFund&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start AXFunds after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra AXFunds&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CnyFund on system login</source>
-        <translation>Sisteme girişte CnyFund&apos;i &amp;başlat</translation>
+        <source>&amp;Start AXFunds on system login</source>
+        <translation>Sisteme girişte AXFunds&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1111,8 +1111,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CnyFund client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide CnyFund istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide AXFunds istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1141,7 +1141,7 @@ Adres: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CnyFund network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1186,8 +1186,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CnyFund.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, CnyFund yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, AXFunds yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1243,8 +1243,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CnyFund.</source>
-        <translation>Bu ayar, CnyFund&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting AXFunds.</source>
+        <translation>Bu ayar, AXFunds&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1262,8 +1262,8 @@ Adres: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CnyFund network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak CnyFund ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak AXFunds ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1336,8 +1336,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start cnyfund: click-to-pay handler</source>
-        <translation>CnyFund: tıkla-ve-öde işleyicisi başlatılamıyor</translation>
+        <source>Cannot start axfunds: click-to-pay handler</source>
+        <translation>Axfunds: tıkla-ve-öde işleyicisi başlatılamıyor</translation>
     </message>
 </context>
 <context>
@@ -1506,8 +1506,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CnyFund-Qt help message to get a list with possible CnyFund command-line options.</source>
-        <translation>Muhtemel CnyFund komut satırı seçeneklerinin bir listesini getirmek için CnyFund-Qt yardım mesajını göster</translation>
+        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
+        <translation>Muhtemel AXFunds komut satırı seçeneklerinin bir listesini getirmek için AXFunds-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1526,13 +1526,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CnyFund - Debug window</source>
-        <translation>CnyFund - Hata ayıklama penceresi</translation>
+        <source>AXFunds - Debug window</source>
+        <translation>AXFunds - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CnyFund Core</source>
-        <translation>CnyFund Core</translation>
+        <source>AXFunds Core</source>
+        <translation>AXFunds Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1541,8 +1541,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CnyFund debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>CnyFund hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>AXFunds hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1551,8 +1551,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the CnyFund RPC console.</source>
-        <translation>CnyFund RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the AXFunds RPC console.</source>
+        <translation>AXFunds RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1722,8 +1722,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir CnyFund adresi gir (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir AXFunds adresi gir (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1817,8 +1817,8 @@ Adres: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid CnyFund address</source>
-        <translation>UYARI: Geçersiz CnyFund adresi</translation>
+        <source>WARNING: Invalid AXFunds address</source>
+        <translation>UYARI: Geçersiz AXFunds adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1891,8 +1891,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir CnyFund adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir AXFunds adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1952,8 +1952,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CnyFund address</source>
-        <translation>Bu CnyFund adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this AXFunds address</source>
+        <translation>Bu AXFunds adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1984,8 +1984,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CnyFund address</source>
-        <translation>Mesajın, belirtilen CnyFund adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
+        <translation>Mesajın, belirtilen AXFunds adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1995,8 +1995,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Bir CnyFund adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Bir AXFunds adresi girin (örn: B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2005,8 +2005,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CnyFund signature</source>
-        <translation>CnyFund imzası gir</translation>
+        <source>Enter AXFunds signature</source>
+        <translation>AXFunds imzası gir</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2584,8 +2584,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>CnyFund version</source>
-        <translation>CnyFund versiyonu</translation>
+        <source>AXFunds version</source>
+        <translation>AXFunds versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2594,8 +2594,8 @@ Adres: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or cnyfund</source>
-        <translation>-sunucu veya cnyfund&apos;ye komut gönder</translation>
+        <source>Send command to -server or axfd</source>
+        <translation>-sunucu veya axfd&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2614,13 +2614,13 @@ Adres: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: cnyfund.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: cnyfund.conf)</translation>
+        <source>Specify configuration file (default: axf.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: axf.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: cnyfund.pid)</source>
-        <translation>pid dosyasını belirt (varsayılan: cnyfund.pid)</translation>
+        <source>Specify pid file (default: axfd.pid)</source>
+        <translation>pid dosyasını belirt (varsayılan: axfunds.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2637,24 +2637,24 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cnyfundrpc
+rpcuser=axfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
 </source>
         <translation>%s, konfigürasyon dosyasında bir rpcpassword belirlemelisiniz: 
 %s
 Aşağıdaki rastgele şifreyi kullanmanız tavsiye edilir:
-rpcuser=cnyfundrpc
+rpcuser=axfundrpc
 rpcpassword=%s
 (bu şifreyi hatırlamanız gerekmemektedir)
 Kullanıcı adı ve şifre aynı OLMAMALIDIR.
 Dosya mevcut değilse, sadece sahibi tarafından okunabilir yetkiyle yaratın.
 Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanız önerilir;
-örneğin: alertnotify=echo %%s | mail -s &quot;CnyFund Alarmı&quot; admin@foo.com
+örneğin: alertnotify=echo %%s | mail -s &quot;AXFunds Alarmı&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2754,8 +2754,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CnyFund will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, CnyFund düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, AXFunds düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3049,8 +3049,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CnyFund is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. CnyFund kapatılıyor.</translation>
+        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. AXFunds kapatılıyor.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3104,13 +3104,13 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CnyFund</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir CnyFund versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir AXFunds versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CnyFund to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için CnyFund&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için AXFunds&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3169,8 +3169,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. CnyFund is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. CnyFund muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. AXFunds muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3199,8 +3199,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CnyFund is probably already running.</source>
-        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. CnyFund muhtemelen halen çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
+        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. AXFunds muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+4"/>

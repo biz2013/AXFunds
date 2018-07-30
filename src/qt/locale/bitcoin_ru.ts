@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CnyFund</source>
-        <translation>О CnyFund</translation>
+        <source>About AXFunds</source>
+        <translation>О AXFunds</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CnyFund&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CnyFund&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AXFunds&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CnyFund developers</source>
+Copyright © 2014 The AXFunds developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2014 Разработчики CnyFund</translation>
+Все права защищены © 2014 Разработчики AXFunds</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CnyFund addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CnyFund address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом CnyFund</translation>
+        <source>Sign a message to prove you own a AXFunds address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом AXFunds</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CnyFund address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CnyFund</translation>
+        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом AXFunds</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CnyFund will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CnyFund</source>
-        <translation>Показать информацию о CnyFund&apos;е</translation>
+        <source>Show information about AXFunds</source>
+        <translation>Показать информацию о AXFunds&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CnyFund address</source>
-        <translation>Отправить монеты на указанный адрес CnyFund</translation>
+        <source>Send coins to a AXFunds address</source>
+        <translation>Отправить монеты на указанный адрес AXFunds</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CnyFund</source>
-        <translation>Изменить параметры конфигурации CnyFund</translation>
+        <source>Modify configuration options for AXFunds</source>
+        <translation>Изменить параметры конфигурации AXFunds</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CnyFund</source>
-        <translation>CnyFund</translation>
+        <source>AXFunds</source>
+        <translation>AXFunds</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CnyFund</source>
-        <translation>&amp;О CnyFund</translation>
+        <source>&amp;About AXFunds</source>
+        <translation>&amp;О AXFunds</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CnyFund client</source>
-        <translation>CnyFund клиент</translation>
+        <source>AXFunds client</source>
+        <translation>AXFunds клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CnyFund network</source>
+        <source>%n active connection(s) to AXFunds network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -600,8 +600,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CnyFund address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом CnyFund или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом AXFunds или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CnyFund can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. CnyFund не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. AXFunds не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -989,8 +989,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CnyFund address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным CnyFund-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным AXFunds-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1008,8 +1008,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CnyFund-Qt</source>
-        <translation>CnyFund-Qt</translation>
+        <source>AXFunds-Qt</source>
+        <translation>AXFunds-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1081,13 +1081,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CnyFund after logging in to the system.</source>
-        <translation>Автоматически запускать CnyFund после входа в систему</translation>
+        <source>Automatically start AXFunds after logging in to the system.</source>
+        <translation>Автоматически запускать AXFunds после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CnyFund on system login</source>
-        <translation>&amp;Запускать CnyFund при входе в систему</translation>
+        <source>&amp;Start AXFunds on system login</source>
+        <translation>&amp;Запускать AXFunds при входе в систему</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1096,8 +1096,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CnyFund client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для CnyFund-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для AXFunds-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1126,7 +1126,7 @@ Address: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CnyFund network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1171,8 +1171,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CnyFund.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска CnyFund.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска AXFunds.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1228,8 +1228,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CnyFund.</source>
-        <translation>Эта настройка вступит в силу после перезапуска CnyFund</translation>
+        <source>This setting will take effect after restarting AXFunds.</source>
+        <translation>Эта настройка вступит в силу после перезапуска AXFunds</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1247,8 +1247,8 @@ Address: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CnyFund network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью CnyFund после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью AXFunds после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1321,7 +1321,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start cnyfund: click-to-pay handler</source>
+        <source>Cannot start axfunds: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1491,8 +1491,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CnyFund-Qt help message to get a list with possible CnyFund command-line options.</source>
-        <translation>Показать помощь по CnyFund-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
+        <translation>Показать помощь по AXFunds-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1511,13 +1511,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CnyFund - Debug window</source>
-        <translation>CnyFund - Окно отладки</translation>
+        <source>AXFunds - Debug window</source>
+        <translation>AXFunds - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CnyFund Core</source>
-        <translation>Ядро CnyFund</translation>
+        <source>AXFunds Core</source>
+        <translation>Ядро AXFunds</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1526,8 +1526,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CnyFund debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл CnyFund из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл AXFunds из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1536,8 +1536,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the CnyFund RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль CnyFund.</translation>
+        <source>Welcome to the AXFunds RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль AXFunds.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1707,8 +1707,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите CnyFund-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите AXFunds-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1802,7 +1802,7 @@ Address: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid CnyFund address</source>
+        <source>WARNING: Invalid AXFunds address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1876,8 +1876,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите CnyFund-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите AXFunds-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1937,8 +1937,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CnyFund address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом CnyFund</translation>
+        <source>Sign the message to prove you own this AXFunds address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом AXFunds</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1969,8 +1969,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CnyFund address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CnyFund</translation>
+        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом AXFunds</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1980,8 +1980,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CnyFund address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите адрес CnyFund (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите адрес AXFunds (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1990,8 +1990,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CnyFund signature</source>
-        <translation>Введите подпись CnyFund</translation>
+        <source>Enter AXFunds signature</source>
+        <translation>Введите подпись AXFunds</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2569,7 +2569,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>CnyFund version</source>
+        <source>AXFunds version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2579,8 +2579,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or cnyfund</source>
-        <translation>Отправить команду на -server или cnyfund</translation>
+        <source>Send command to -server or axfd</source>
+        <translation>Отправить команду на -server или axfd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2600,13 +2600,13 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: cnyfund.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: cnyfund.conf)</translation>
+        <source>Specify configuration file (default: axf.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: axf.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: cnyfund.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: cnyfund.pid)</translation>
+        <source>Specify pid file (default: axfd.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: axfd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2623,13 +2623,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cnyfundrpc
+rpcuser=axfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2730,8 +2730,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CnyFund will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, CnyFund будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, AXFunds будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3026,7 +3026,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CnyFund is shutting down.</source>
+        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3081,13 +3081,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CnyFund</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию CnyFund</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию AXFunds</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CnyFund to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите CnyFund для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите AXFunds для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3146,8 +3146,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. CnyFund is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, CnyFund уже работает.</translation>
+        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, AXFunds уже работает.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3176,7 +3176,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CnyFund Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CnyFund is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>

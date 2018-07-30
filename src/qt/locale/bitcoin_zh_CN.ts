@@ -3,24 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CNY</source>
-        <translation>关于虚拟人民币</translation>
+        <source>About AXFunds</source>
+        <translation>关于美基金</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CNY&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;虚拟人民币客户端&lt;/b&gt; 版本</translation>
+        <source>&lt;b&gt;AXFunds&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;美基金客户端&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014-2018 The CnyFund developers
-Copyright © 2018 The CNY developers</source>
+Copyright © 2014 The AXFunds developers</source>
         <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
 版权所有 © 2012-2014 新星币Novacoin开发组
-版权所有 © 2014-2018 美基金开发组
-版权所有 © 2018 虚拟人民币开发组</translation>
+版权所有 © 2014 美基金AXFunds开发组</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +65,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CNY addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来接收支付的虚拟人民币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
+        <source>These are your AXFunds addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>这是您用来接收支付的美基金地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -82,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CNY address</source>
-        <translation>对信息进行签名以证明您对该虚拟人民币地址的所有权</translation>
+        <source>Sign a message to prove you own a AXFunds address</source>
+        <translation>对信息进行签名以证明您对该美基金地址的所有权</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CNY address</source>
-        <translation>验证信息以保证其经过指定虚拟人民币地址的签名</translation>
+        <source>Verify a message to ensure it was signed with a specified AXFunds address</source>
+        <translation>验证信息以保证其经过指定美基金地址的签名</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -234,7 +232,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的虚拟人民币将会丢失！</translation>
+        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的美基金将会丢失！</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -265,8 +263,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CNY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>虚拟人民币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
+        <source>AXFunds will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>美基金客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -359,8 +357,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CNY</source>
-        <translation>显示关于虚拟人民币的信息</translation>
+        <source>Show information about AXFunds</source>
+        <translation>显示关于美基金的信息</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -399,12 +397,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CNY address</source>
-        <translation>向指定的地址发送虚拟人民币</translation>
+        <source>Send coins to a AXFunds address</source>
+        <translation>向指定的地址发送美基金</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CNY</source>
+        <source>Modify configuration options for AXFunds</source>
         <translation>更改设置选项</translation>
     </message>
     <message>
@@ -445,8 +443,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>CNY</source>
-        <translation>虚拟人民币</translation>
+        <source>AXFunds</source>
+        <translation>美基金</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -455,8 +453,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CNY</source>
-        <translation>关于虚拟人民币(&amp;A)</translation>
+        <source>&amp;About AXFunds</source>
+        <translation>关于美基金(&amp;A)</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -507,13 +505,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CNY client</source>
-        <translation>虚拟人民币客户端</translation>
+        <source>AXFunds client</source>
+        <translation>美基金客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CNY network</source>
-        <translation><numerusform>与虚拟人民币网络建立了 %n 个连接</numerusform></translation>
+        <source>%n active connection(s) to AXFunds network</source>
+        <translation><numerusform>与美基金网络建立了 %n 个连接</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -538,7 +536,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>未进行权益增值，因为钱包中没有成熟的虚拟人民币</translation>
+        <translation>未进行权益增值，因为钱包中没有成熟的美基金</translation>
     </message>
     <message>
         <location line="-812"/>
@@ -548,12 +546,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+6"/>
         <source>&amp;Receive</source>
-        <translation>接收虚拟人民币(&amp;R)</translation>
+        <translation>接收美基金(&amp;R)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send</source>
-        <translation>发送虚拟人民币(&amp;S)</translation>
+        <translation>发送美基金(&amp;S)</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -607,8 +605,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CNY address or malformed URI parameters.</source>
-        <translation>无法解析URI：无效的虚拟人民币地址或错误的URI参数。</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AXFunds address or malformed URI parameters.</source>
+        <translation>无法解析URI：无效的美基金地址或错误的URI参数。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -730,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CNY can no longer continue safely and will quit.</source>
-        <translation>发生严重错误，虚拟人民币客户端即将关闭。</translation>
+        <source>A fatal error occurred. AXFunds can no longer continue safely and will quit.</source>
+        <translation>发生严重错误，美基金客户端即将关闭。</translation>
     </message>
 </context>
 <context>
@@ -747,7 +745,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>虚拟人民币控制</translation>
+        <translation>美基金控制</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1001,8 +999,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CNY address.</source>
-        <translation>“%1” 不是有效的虚拟人民币地址。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AXFunds address.</source>
+        <translation>“%1” 不是有效的美基金地址。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1020,8 +1018,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CNY-Qt</source>
-        <translation>虚拟人民币客户端CNY-Qt</translation>
+        <source>AXFunds-Qt</source>
+        <translation>美基金客户端AXFunds-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1093,13 +1091,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CNY after logging in to the system.</source>
-        <translation>开机自动启动虚拟人民币客户端</translation>
+        <source>Automatically start AXFunds after logging in to the system.</source>
+        <translation>开机自动启动美基金客户端</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CNY on system login</source>
-        <translation>开机时自动启动虚拟人民币客户端(&amp;S)</translation>
+        <source>&amp;Start AXFunds on system login</source>
+        <translation>开机时自动启动美基金客户端(&amp;S)</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1108,8 +1106,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CNY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>路由器自动打开虚拟人民币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
+        <source>Automatically open the AXFunds client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>路由器自动打开美基金客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1138,7 +1136,7 @@ Address: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the CNY network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the AXFunds network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1183,18 +1181,18 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CNY.</source>
-        <translation>在此设置用户界面语言。重启虚拟人民币客户端后设置生效。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AXFunds.</source>
+        <translation>在此设置用户界面语言。重启美基金客户端后设置生效。</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>虚拟人民币金额单位(&amp;U)：</translation>
+        <translation>美基金金额单位(&amp;U)：</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择虚拟人民币单位。</translation>
+        <translation>选择美基金单位。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1204,7 +1202,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>显示虚拟人民币控制选项(仅用于专家用户)</translation>
+        <translation>显示美基金控制选项(仅用于专家用户)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1240,7 +1238,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CNY.</source>
+        <source>This setting will take effect after restarting AXFunds.</source>
         <translation>重启客户端后设置生效</translation>
     </message>
     <message>
@@ -1259,7 +1257,7 @@ Address: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CNY network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXFunds network after a connection is established, but this process has not completed yet.</source>
         <translation>所显示的信息尚未更新，建立连接后钱包客户端会自动和网络进行同步，但目前该过程尚未完成。</translation>
     </message>
     <message>
@@ -1333,8 +1331,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start cnyfund: click-to-pay handler</source>
-        <translation>无法启动虚拟人民币: 点击支付处理器</translation>
+        <source>Cannot start axfunds: click-to-pay handler</source>
+        <translation>无法启动美基金: 点击支付处理器</translation>
     </message>
 </context>
 <context>
@@ -1503,7 +1501,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CNY-Qt help message to get a list with possible CNY command-line options.</source>
+        <source>Show the AXFunds-Qt help message to get a list with possible AXFunds command-line options.</source>
         <translation>显示关于命令行选项的帮助信息。</translation>
     </message>
     <message>
@@ -1523,13 +1521,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CNY - Debug window</source>
-        <translation>虚拟人民币客户端-调试窗口</translation>
+        <source>AXFunds - Debug window</source>
+        <translation>美基金客户端-调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CNY Core</source>
-        <translation>虚拟人民币核心进程</translation>
+        <source>AXFunds Core</source>
+        <translation>美基金核心进程</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1538,7 +1536,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CNY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the AXFunds debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>打开调试日志文件，对于较大的文件，这可能持续几秒钟。</translation>
     </message>
     <message>
@@ -1548,8 +1546,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the CNY RPC console.</source>
-        <translation>欢迎使用虚拟人民币RPC控制台。</translation>
+        <source>Welcome to the AXFunds RPC console.</source>
+        <translation>欢迎使用美基金RPC控制台。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1719,8 +1717,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a CNY address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入虚拟人民币地址(例如：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>输入美基金地址(例如：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1814,8 +1812,8 @@ Address: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid CNY address</source>
-        <translation>警告：无效的虚拟人民币地址</translation>
+        <source>WARNING: Invalid AXFunds address</source>
+        <translation>警告：无效的美基金地址</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1888,8 +1886,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CNY address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入一个虚拟人民币地址 (例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>输入一个美基金地址 (例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1949,8 +1947,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CNY address</source>
-        <translation>对该消息进行签名以证明您对该虚拟人民币地址的所有权</translation>
+        <source>Sign the message to prove you own this AXFunds address</source>
+        <translation>对该消息进行签名以证明您对该美基金地址的所有权</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1977,12 +1975,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>用来签名该消息的虚拟人民币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>用来签名该消息的美基金地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CNY address</source>
-        <translation>确认该消息以保证它经由指定的虚拟人民币地址签名</translation>
+        <source>Verify the message to ensure it was signed with the specified AXFunds address</source>
+        <translation>确认该消息以保证它经由指定的美基金地址签名</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1992,8 +1990,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CNY address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>输入虚拟人民币地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a AXFunds address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>输入美基金地址(例： B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2002,8 +2000,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CNY signature</source>
-        <translation>输入虚拟人民币签名</translation>
+        <source>Enter AXFunds signature</source>
+        <translation>输入美基金签名</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2581,8 +2579,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>CNY version</source>
-        <translation>虚拟人民币客户端 版本</translation>
+        <source>AXFunds version</source>
+        <translation>美基金客户端 版本</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2591,8 +2589,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or cnyfund</source>
-        <translation>向-server服务器或cnyfund发送命令</translation>
+        <source>Send command to -server or axfd</source>
+        <translation>向-server服务器或axfd发送命令</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2614,13 +2612,13 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: cnyfund.conf)</source>
-        <translation>指定配置文件(默认: cnyfund.conf)</translation>
+        <source>Specify configuration file (default: axf.conf)</source>
+        <translation>指定配置文件(默认: axf.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: cnyfund.pid)</source>
-        <translation>指定pid文件(默认: cnyfund.pid)</translation>
+        <source>Specify pid file (default: axfd.pid)</source>
+        <translation>指定pid文件(默认: axfd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2638,24 +2636,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cnyfundrpc
+rpcuser=axfundrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
 </source>
         <translation>%s, 必须在配置文件里设置rpc密码:
  %s
 建议使用如下的随机密码:
-rpcuser=cnyfundrpc
+rpcuser=axfundrpc
 rpcpassword=%s
 (不需要记住该密码)
 用户名和密码不能重复。
 如果该文件不存在，请自行创建并设为用户本身只读权限。
 建议创建提示以监测可能的问题，如：
-alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
+alertnotify=echo %%s | mail -s &quot;AXFunds Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2759,8 +2757,8 @@ alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CNY will not work properly.</source>
-        <translation>警告：请确认您计算机的本地时间。如果时钟错误，虚拟人民币客户端将不能正常工作。</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXFunds will not work properly.</source>
+        <translation>警告：请确认您计算机的本地时间。如果时钟错误，美基金客户端将不能正常工作。</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3058,8 +3056,8 @@ alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. CNY is shutting down.</source>
-        <translation>初始化完整性检查失败。 虚拟人民币客户端即将关闭。</translation>
+        <source>Initialization sanity check failed. AXFunds is shutting down.</source>
+        <translation>初始化完整性检查失败。 美基金客户端即将关闭。</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3114,12 +3112,12 @@ alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CNY</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of AXFunds</source>
         <translation>wallet.dat 钱包文件加载出错：需要新版本的客户端</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CNY to complete</source>
+        <source>Wallet needed to be rewritten: restart AXFunds to complete</source>
         <translation>需要重写钱包，重启客户端以完成该操作。</translation>
     </message>
     <message>
@@ -3179,8 +3177,8 @@ alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. CNY is probably already running.</source>
-        <translation>无法绑定到该计算机上的 %s. 虚拟人民币客户端可能已在运行中。</translation>
+        <source>Unable to bind to %s on this computer. AXFunds is probably already running.</source>
+        <translation>无法绑定到该计算机上的 %s. 美基金客户端可能已在运行中。</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3209,8 +3207,8 @@ alertnotify=echo %%s | mail -s &quot;CNY Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CNY is probably already running.</source>
-        <translation>无法从数据目录 %s 获得锁定.  虚拟人民币客户端可能已在运行中.</translation>
+        <source>Cannot obtain a lock on data directory %s. AXFunds is probably already running.</source>
+        <translation>无法从数据目录 %s 获得锁定.  美基金客户端可能已在运行中.</translation>
     </message>
     <message>
         <location line="+4"/>
