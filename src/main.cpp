@@ -599,6 +599,11 @@ int64_t GetMinFee(const CTransaction& tx, unsigned int nBlockSize, enum GetMinFe
 
     if (!MoneyRange(nMinFee))
         nMinFee = MAX_MONEY;
+    else 
+    {
+        // Set transaction fee as a fix value
+        nMinFee = DEFAULT_TX_FEE;
+    }
     return nMinFee;
 }
 

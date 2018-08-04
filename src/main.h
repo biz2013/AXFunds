@@ -45,7 +45,7 @@ static const unsigned int MAX_INV_SZ = 50000;
 /** Fees smaller than this (in satoshi) are considered zero fee (for transaction creation) */
 static const int64_t MIN_TX_FEE = 10000;
 /** Default transaction fee, minium charge per transaction */
-static const int64_t DEFAULT_TX_FEE = 0.1 * CENT;
+static const int64_t DEFAULT_TX_FEE = 1 * CENT;
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
