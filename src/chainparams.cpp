@@ -85,7 +85,7 @@ public:
         genesis.nNonce   = 21100558;
 
         hashGenesisBlock = genesis.GetHash();
-        printf ("MainNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
+        //printf ("MainNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
 
         assert(hashGenesisBlock == uint256("5be1e5b807c33c310bcbfad6825c82f3758e33a9a6f841496e89de68454e0e1a"));
         assert(genesis.hashMerkleRoot == uint256("9350fd8f8210859d308261382a96df70a8eecef058cf3b09a6e0dd865d6f8e98"));
@@ -165,7 +165,7 @@ public:
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 216178;
         hashGenesisBlock = genesis.GetHash();
-        printf ("TestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
+        //printf ("TestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("702e7f2ecd6fe2f1bdf91943b60f961e66caf8a112b8a680faa2fe9c975018f1"));
 
         vFixedSeeds.clear();
@@ -203,7 +203,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
-        printf ("RegTestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
+        //printf ("RegTestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("cebeb6522f380aaaffebd4917d4c3c665547afd190ff3ed3396fca1011c320bb"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
