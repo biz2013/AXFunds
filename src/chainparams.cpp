@@ -75,47 +75,46 @@ public:
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1417912409, vin, vout, 0);
+        CTransaction txNew(1, 1547418417, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1417912409;
+        genesis.nTime    = 1547418417;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 21100558;
 
         hashGenesisBlock = genesis.GetHash();
-        // printf ("hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
+        printf ("MainNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
 
+        assert(hashGenesisBlock == uint256("5be1e5b807c33c310bcbfad6825c82f3758e33a9a6f841496e89de68454e0e1a"));
+        assert(genesis.hashMerkleRoot == uint256("9350fd8f8210859d308261382a96df70a8eecef058cf3b09a6e0dd865d6f8e98"));
 
-        assert(hashGenesisBlock == uint256("52a542862f874c62249c3ccca99ad6170344686a5f350ffde5b3fd7cf7081fdd"));
-        assert(genesis.hashMerkleRoot == uint256("b746b69f230fc846846f232bd5d496d8ac405238d5b919a749835f3938a67dcd"));
-
-        vSeeds.push_back(CDNSSeedData("1.youmebank.com:18188","1.youmebank.com:18188"));
-        vSeeds.push_back(CDNSSeedData("2.youmebank.com:18188","2.youmebank.com:18188"));
-        vSeeds.push_back(CDNSSeedData("3.youmebank.com:18188","3.youmebank.com:18188"));
-        vSeeds.push_back(CDNSSeedData("4.youmebank.com:18188","4.youmebank.com:18188"));
-        vSeeds.push_back(CDNSSeedData("5.youmebank.com:18188","5.youmebank.com:18188"));
-        vSeeds.push_back(CDNSSeedData("6.youmebank.com:18188","6.youmebank.com:18188"));
-        vSeeds.push_back(CDNSSeedData("1.youmebank.com","1.youmebank.com"));
-        vSeeds.push_back(CDNSSeedData("2.youmebank.com","2.youmebank.com"));
-        vSeeds.push_back(CDNSSeedData("3.youmebank.com","3.youmebank.com"));
-        vSeeds.push_back(CDNSSeedData("4.youmebank.com","4.youmebank.com"));
-        vSeeds.push_back(CDNSSeedData("5.youmebank.com","5.youmebank.com"));
-        vSeeds.push_back(CDNSSeedData("6.youmebank.com","6.youmebank.com"));
+        // vSeeds.push_back(CDNSSeedData("1.youmebank.com:18188","1.youmebank.com:18188"));
+        // vSeeds.push_back(CDNSSeedData("2.youmebank.com:18188","2.youmebank.com:18188"));
+        // vSeeds.push_back(CDNSSeedData("3.youmebank.com:18188","3.youmebank.com:18188"));
+        // vSeeds.push_back(CDNSSeedData("4.youmebank.com:18188","4.youmebank.com:18188"));
+        // vSeeds.push_back(CDNSSeedData("5.youmebank.com:18188","5.youmebank.com:18188"));
+        // vSeeds.push_back(CDNSSeedData("6.youmebank.com:18188","6.youmebank.com:18188"));
+        // vSeeds.push_back(CDNSSeedData("1.youmebank.com","1.youmebank.com"));
+        // vSeeds.push_back(CDNSSeedData("2.youmebank.com","2.youmebank.com"));
+        // vSeeds.push_back(CDNSSeedData("3.youmebank.com","3.youmebank.com"));
+        // vSeeds.push_back(CDNSSeedData("4.youmebank.com","4.youmebank.com"));
+        // vSeeds.push_back(CDNSSeedData("5.youmebank.com","5.youmebank.com"));
+        // vSeeds.push_back(CDNSSeedData("6.youmebank.com","6.youmebank.com"));
         vSeeds.push_back(CDNSSeedData("",""));
 
-        vSeeds.push_back(CDNSSeedData("103.45.29.134", "103.45.29.1343"));
-        vSeeds.push_back(CDNSSeedData("103.45.29.134:18188","103.45.29.134:18188"));
-        vSeeds.push_back(CDNSSeedData("103.45.15.140","103.45.15.140"));
-        vSeeds.push_back(CDNSSeedData("103.45.15.140:18188","103.45.15.140:18188"));
-        vSeeds.push_back(CDNSSeedData("182.18.21.43","182.18.21.43"));
-        vSeeds.push_back(CDNSSeedData("182.18.21.43:18188","182.18.21.43:18188"));
-        vSeeds.push_back(CDNSSeedData("103.45.107.197","103.45.107.197"));
-        vSeeds.push_back(CDNSSeedData("103.45.107.197:18188","103.45.107.197:18188"));
-        vSeeds.push_back(CDNSSeedData("103.45.130.54","103.45.130.54"));
-        vSeeds.push_back(CDNSSeedData("103.45.130.54:18188","103.45.130.54:18188"));
-        vSeeds.push_back(CDNSSeedData("",""));
+        // vSeeds.push_back(CDNSSeedData("103.45.29.134", "103.45.29.1343"));
+        // vSeeds.push_back(CDNSSeedData("103.45.29.134:18188","103.45.29.134:18188"));
+        // vSeeds.push_back(CDNSSeedData("103.45.15.140","103.45.15.140"));
+        // vSeeds.push_back(CDNSSeedData("103.45.15.140:18188","103.45.15.140:18188"));
+        // vSeeds.push_back(CDNSSeedData("182.18.21.43","182.18.21.43"));
+        // vSeeds.push_back(CDNSSeedData("182.18.21.43:18188","182.18.21.43:18188"));
+        // vSeeds.push_back(CDNSSeedData("103.45.107.197","103.45.107.197"));
+        // vSeeds.push_back(CDNSSeedData("103.45.107.197:18188","103.45.107.197:18188"));
+        // vSeeds.push_back(CDNSSeedData("103.45.130.54","103.45.130.54"));
+        // vSeeds.push_back(CDNSSeedData("103.45.130.54:18188","103.45.130.54:18188"));
+        // vSeeds.push_back(CDNSSeedData("",""));
 
         // https://en.bitcoin.it/wiki/List_of_address_prefixes, make public address always start as character 'C'. 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
@@ -166,8 +165,8 @@ public:
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 216178;
         hashGenesisBlock = genesis.GetHash();
-        // printf ("hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("d73216a49298e7451de5d5243b1c80b7961c89c91d2579817580fe23cb3e1bc6"));
+        printf ("TestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
+        assert(hashGenesisBlock == uint256("702e7f2ecd6fe2f1bdf91943b60f961e66caf8a112b8a680faa2fe9c975018f1"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -204,8 +203,8 @@ public:
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
-        // printf ("hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("81b3c155edfec14dc52a3236cc3a029abdeab1cab0aac03e6399137d350c0cb2"));
+        printf ("RegTestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
+        assert(hashGenesisBlock == uint256("cebeb6522f380aaaffebd4917d4c3c665547afd190ff3ed3396fca1011c320bb"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }

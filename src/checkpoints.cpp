@@ -27,7 +27,7 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0,   uint256("52a542862f874c62249c3ccca99ad6170344686a5f350ffde5b3fd7cf7081fdd") ) // init        
+        ( 0,   uint256("5be1e5b807c33c310bcbfad6825c82f3758e33a9a6f841496e89de68454e0e1a") ) // init        
         // ( 1,   uint256("0679080668f6cd98d76320b2126d691b915fcd9090591d76909c29a3233416b0") ) // first coin issue all        
         // ( 37,  uint256("4e57d4904c861fd88c0684d4711e51848f4e90f4b2c58ffdbc0a2e692e5768c5") ) // first pos coins
         // ( 153,  uint256("ace4593ac730b1b8764016ba3c3e30a4f2b9f1d87462ef612542780f590d2b0a") ) // first pos coins
