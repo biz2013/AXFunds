@@ -1,0 +1,79 @@
+### How to open msys shell
+In dos prompt, c:\MinGW\msys\1.0\msys.bat
+
+### Fix libleveldb.a libmemenv.a missing (cnyfund.exe, cnyfund-qt.exe build)
+in msys shell.
+cd /c/workspace/CnyFund/src/leveldb
+TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
+
+### Compiling OpenSSL on Windows (mingw32)
+http://www.stringcat.com/company_blog/2015/12/07/compiling-openssl-on-windows-mingw32/
+
+
+### Fix QT 5 build issue
+  fix moc file missing, fix couldn't find openssl file. Add -I C:\deps\openssl-1.0.1l\include -L C:\deps\openssl-1.0.1l to configure command as below.
+https://forum.qt.io/topic/58495/solved-building-custom-qt-from-source/27
+
+set QTDIR=C:\Qt\5.3.2
+set PATH=%PATH%;C:\Qt\5.3.2\bin
+set QMAKESPEC=C:\Qt\5.3.2\mkspecs\win32-g++
+
+set INCLUDE=C:\deps\libpng-1.6.16;C:\deps\openssl-1.0.1l\include;C:\Qt\5.6.0\src\corelib\.moc\release
+set LIB=C:\deps\libpng-1.6.16\.libs;C:\deps\openssl-1.0.1l
+
+# Do out of source building, easy to cleanup and retry.
+mkdir MyQt5Build
+cd C:\Qt\MyQt5Build
+C:\Qt\qt5\configure.bat
+Indeed, the result is pretty much the same however It's generally faster (at least for me until now) to delete a folder than to recursively go through all Qt's modules and clean one after the other.
+
+C:\Qt\5.3.2\configure.bat -release -opensource -confirm-license -static -make libs -no-sql-sqlite -no-opengl -system-zlib -qt-pcre -no-icu -no-gif -system-libpng -no-libjpeg -no-freetype -no-angle -openssl -no-dbus -no-audio-backend -no-wmf-backend -no-qml-debug -openssl-linked -I C:\deps\openssl-1.0.1l\include -L C:\deps\openssl-1.0.1l
+
+## for qtdiag build failure, go to "c:\Qt\qttools-opensource-src-5.3.2\src\qtdiag" add "-LC:\mingw32\opt\bin" to below command and run.
+g++ -Wl,--gc-sections -Wl,-s -Wl,-subsystem,console -o C:\Qt\qt_build_5\bin\qtdiag.exe .obj/release/main.o 
+.obj/release/qtdiag.o .obj/release/qtdiag_plugin_import.o  -LC:\deps\libpng-1.6.16\.libs -LC:\deps\openssl-1.0.1l 
+-LC:/deps/openssl-1.0.1l -LC:/Qt/qt_build_5/lib -LC:/Qt/qt_build_5/plugins/bearer -lqgenericbearer -lqnativewifibearer 
+-lQt5Network -ldnsapi -lssleay32 -llibeay32 -lcrypt32 -LC:/Qt/qt_build_5/plugins/platforms -lqwindows -lwinspool 
+-lshlwapi -lQt5PlatformSupport -LC:/Qt/qt_build_5/plugins/imageformats -lqico -lQt5Gui -lgdi32 -lcomdlg32 -loleaut32 
+-limm32 -lwinmm -lpng -lQt5Core -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lz
+
+### Set up path to DOS:
+C:\mingw32\bin
+C:\Qt\qt_build_5\bin
+set PATH=%PATH%;C:\Qt\qt_build_5\bin
+
+### Fix build cnyfund.exe: 
+c:\workspace\CnyFund\src>mingw32-make -f makefile.mingw
+
+Instead of restart build by make, I retry the last command g++ with update parameters. (I couldn't figure out right way to update configure.bat)
+
+# To fix error "env_win.cc:(.text+0x2f00): undefined reference to `_imp__PathFileExistsW@4", move "-l shlwapi" to the end like below
+c:\workspace\CnyFund\src>g++ -mthreads -O2 -msse2 -w -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter -g -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE -DMINIUPNP_STATICLIB -DSTATICLIB -DUSE_UPNP=0 -DENABLE_WALLET -Ic:/workspace/CnyFund/src/leveldb/include -Ic:/workspace/CnyFund/src/leveldb/helpers -I"C:\deps\boost_1_57_0" -I"C:\deps\db-4.8.30.NC\build_unix" -I"C:\deps\openssl-1.0.1l\include" -I"C:\deps" -Wl,--dynamicbase -Wl,--nxcompat -o cnyfund.exe -L"C:\deps\boost_1_57_0\stage\lib" -L"C:\deps\db-4.8.30.NC\build_unix" -L"C:\deps\openssl-1.0.1l" -L"C:\deps" -L"C:\deps\miniupnpc" obj/alert.o obj/version.o obj/checkpoints.o obj/netbase.o obj/addrman.o obj/crypter.o obj/key.o obj/init.o obj/bitcoind.o obj/keystore.o obj/core.o obj/main.o obj/net.o obj/protocol.o obj/rpcclient.o obj/rpcprotocol.o obj/rpcserver.o obj/rpcmisc.o obj/rpcnet.o obj/rpcblockchain.o obj/rpcrawtransaction.o obj/timedata.o obj/script.o obj/sync.o obj/txmempool.o obj/util.o obj/hash.o obj/noui.o obj/kernel.o obj/pbkdf2.o obj/scrypt.o obj/scrypt-x86.o obj/scrypt-x86_64.o obj/chainparams.o obj/db.o obj/miner.o obj/rpcdump.o obj/rpcmining.o obj/rpcwallet.o obj/wallet.o obj/walletdb.o obj/txdb-leveldb.o -l boost_system-mgw49-mt-s-1_57 -l boost_filesystem-mgw49-mt-s-1_57 -l boost_program_options-mgw49-mt-s-1_57 -l boost_thread-mgw49-mt-s-1_57 -l boost_chrono-mgw49-mt-s-1_57 -l db_cxx -l ssl -l crypto -l miniupnpc -l iphlpapi -l kernel32 -l user32 -l gdi32 -l comdlg32 -l winspool -l winmm -l shell32 -l comctl32 -l ole32 -l oleaut32 -l uuid -l rpcrt4 -l advapi32 -l ws2_32 -l mswsock c:/workspace/CnyFund/src/leveldb/libleveldb.a c:/workspace/CnyFund/src/leveldb/libmemenv.a -l shlwapi
+
+# To get cnyfund.exe run, we need to copy (ssleay32.dll libeay32.dll) from openssl to the same folder.
+
+
+### Fix build cnyfund-qt.exe
+
+Failed at linking cnyfund-qt.exe
+# To build cnyfund-qt.exe, remove the "-static" flag, and copy ssleay32.dll libeay32.dll to c:\worksapce\CnyFund. (I think there is something wrong with compiling flag, 
+qt build try to use static lib compile, so it can only have one exe file, but it can't link, when I remove static flag and copy dll, it works, ) So I think I need to
+double check openssl build. (build openssl with shared option.)
+
+ex:
+g++ -Wl,--large-address-aware  -static-libgcc -static-libstdc++ -Wl,-s -Wl,
+-subsystem,windows -mthreads -o release\cnyfund-qt.exe object_script.cnyfund-qt.Release 
+ -lmingwthrd -lmingw32 -LC:/Qt/qt_build_5/lib -lqtmain -LC:\deps\libpng-1.6.16\.libs 
+ -LC:\deps\openssl-1.0.1l -LC:/deps/openssl-1.0.1l -lqrencode -LC:/deps/miniupnpc 
+ -lminiupnpc -liphlpapi C:/workspace/CnyFund/src/leveldb/libleveldb.a 
+ C:/workspace/CnyFund/src/leveldb/libmemenv.a -LC:/deps/boost_1_57_0/stage/lib 
+ -LC:/deps/db-4.8.30.NC/build_unix -LC:/deps/qrencode-3.4.4/.libs -lssl 
+ -lcrypto -ldb_cxx -lmswsock -pthread -lboost_system-mgw49-mt-s-1_57 
+ -lboost_filesystem-mgw49-mt-s-1_57 -lboost_program_options-mgw49-mt-s-1_57 
+ -lboost_thread_win32-mgw49-mt-s-1_57 -lboost_chrono-mgw49-mt-s-1_57 
+ -LC:/Qt/qt_build_5/plugins/accessible -lqtaccessiblewidgets -lQt5Widgets 
+ -LC:/Qt/qt_build_5/plugins/bearer -lqgenericbearer -lqnativewifibearer 
+ -lQt5Network -ldnsapi -lssleay32 -llibeay32 -lcrypt32 -LC:/Qt/qt_build_5/plugins/platforms 
+ -lqwindows -lwinspool -lshlwapi -lQt5PlatformSupport -LC:/Qt/qt_build_5/plugins/imageformats 
+ -lqico -lQt5Gui -lgdi32 -lcomdlg32 -loleaut32 -limm32 -lwinmm -lpng -lQt5Core -lole32 -luuid -lws2_32 
+ -ladvapi32 -lshell32 -luser32 -lkernel32 -lz build\bitcoin-qt_res.o

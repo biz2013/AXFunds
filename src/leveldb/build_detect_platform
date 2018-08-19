@@ -71,6 +71,7 @@ if [ "$CXX" = "g++" ]; then
     MEMCMP_FLAG="-fno-builtin-memcmp"
 fi
 
+TARGET_OS=NATIVE_WINDOWS
 case "$TARGET_OS" in
     Darwin)
         PLATFORM=OS_MACOSX
