@@ -580,7 +580,7 @@ void static BitcoinMiner(CWallet *pwallet)
 
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        //LogPrintf("Running CancerMiner with %llu transactions in block (%u bytes)\n", pblock->vtx.size(),::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
+        LogPrintf("Running CancerMiner with %llu transactions in block (%u bytes)\n", pblock->vtx.size(),::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         uint256 hashTarget = CBigNum().SetCompact(pblock->nBits).getuint256();
         int64_t nStart = GetTime();
@@ -620,7 +620,7 @@ void static BitcoinMiner(CWallet *pwallet)
                         dHashesPerSec = 1000.0 * nHashCounter / (GetTimeMillis() - nHPSTimerStart);
                         nHPSTimerStart = GetTimeMillis();
                         nHashCounter = 0;
-                        //LogPrintf("hashmeter %6.0f khash/s\n", dHashesPerSec/1000.0);
+                        LogPrintf("hashmeter %6.0f khash/s\n", dHashesPerSec/1000.0);
                     }
                 }
             }
