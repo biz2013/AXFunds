@@ -165,6 +165,8 @@ public:
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 216178;
         hashGenesisBlock = genesis.GetHash();
+
+        //printf ("TestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("702e7f2ecd6fe2f1bdf91943b60f961e66caf8a112b8a680faa2fe9c975018f1"));
 
         vFixedSeeds.clear();
@@ -202,7 +204,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
-
+        
         //printf ("RegTestNet: hashGenesisBlock:%s hashMerkleRoot:%s\n",hashGenesisBlock.ToString().c_str(),genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("cebeb6522f380aaaffebd4917d4c3c665547afd190ff3ed3396fca1011c320bb"));
 
