@@ -117,7 +117,8 @@ public:
         vSeeds.push_back(CDNSSeedData("103.45.130.54:18188","103.45.130.54:18188"));
         vSeeds.push_back(CDNSSeedData("",""));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
+        // https://en.bitcoin.it/wiki/List_of_address_prefixes, make public address always start as character 'C'. 
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 153);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
