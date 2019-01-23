@@ -62,8 +62,8 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="splash">res/images/cnycoinsplash.png</file>
-        <file alias="header">res/images/cnycoinheader.png</file>
+        <file alias="splash">res/images/cnyfsplash.png</file>
+        <file alias="header">res/images/cnyfheader.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="update_spinner">res/movies/update_spinner.mng</file>
