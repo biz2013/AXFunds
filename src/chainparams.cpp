@@ -90,31 +90,31 @@ public:
         assert(hashGenesisBlock == uint256("5be1e5b807c33c310bcbfad6825c82f3758e33a9a6f841496e89de68454e0e1a"));
         assert(genesis.hashMerkleRoot == uint256("9350fd8f8210859d308261382a96df70a8eecef058cf3b09a6e0dd865d6f8e98"));
 
-        // vSeeds.push_back(CDNSSeedData("1.youmebank.com:18188","1.youmebank.com:18188"));
-        // vSeeds.push_back(CDNSSeedData("2.youmebank.com:18188","2.youmebank.com:18188"));
-        // vSeeds.push_back(CDNSSeedData("3.youmebank.com:18188","3.youmebank.com:18188"));
-        // vSeeds.push_back(CDNSSeedData("4.youmebank.com:18188","4.youmebank.com:18188"));
-        // vSeeds.push_back(CDNSSeedData("5.youmebank.com:18188","5.youmebank.com:18188"));
-        // vSeeds.push_back(CDNSSeedData("6.youmebank.com:18188","6.youmebank.com:18188"));
-        // vSeeds.push_back(CDNSSeedData("1.youmebank.com","1.youmebank.com"));
-        // vSeeds.push_back(CDNSSeedData("2.youmebank.com","2.youmebank.com"));
-        // vSeeds.push_back(CDNSSeedData("3.youmebank.com","3.youmebank.com"));
-        // vSeeds.push_back(CDNSSeedData("4.youmebank.com","4.youmebank.com"));
-        // vSeeds.push_back(CDNSSeedData("5.youmebank.com","5.youmebank.com"));
-        // vSeeds.push_back(CDNSSeedData("6.youmebank.com","6.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("1.youmebank.com:18188","1.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("2.youmebank.com:18188","2.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("3.youmebank.com:18188","3.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("4.youmebank.com:18188","4.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("5.youmebank.com:18188","5.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("6.youmebank.com:18188","6.youmebank.com:18188"));
+        vSeeds.push_back(CDNSSeedData("1.youmebank.com","1.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("2.youmebank.com","2.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("3.youmebank.com","3.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("4.youmebank.com","4.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("5.youmebank.com","5.youmebank.com"));
+        vSeeds.push_back(CDNSSeedData("6.youmebank.com","6.youmebank.com"));
         vSeeds.push_back(CDNSSeedData("",""));
 
-        // vSeeds.push_back(CDNSSeedData("103.45.29.134", "103.45.29.1343"));
-        // vSeeds.push_back(CDNSSeedData("103.45.29.134:18188","103.45.29.134:18188"));
-        // vSeeds.push_back(CDNSSeedData("103.45.15.140","103.45.15.140"));
-        // vSeeds.push_back(CDNSSeedData("103.45.15.140:18188","103.45.15.140:18188"));
-        // vSeeds.push_back(CDNSSeedData("182.18.21.43","182.18.21.43"));
-        // vSeeds.push_back(CDNSSeedData("182.18.21.43:18188","182.18.21.43:18188"));
-        // vSeeds.push_back(CDNSSeedData("103.45.107.197","103.45.107.197"));
-        // vSeeds.push_back(CDNSSeedData("103.45.107.197:18188","103.45.107.197:18188"));
-        // vSeeds.push_back(CDNSSeedData("103.45.130.54","103.45.130.54"));
-        // vSeeds.push_back(CDNSSeedData("103.45.130.54:18188","103.45.130.54:18188"));
-        // vSeeds.push_back(CDNSSeedData("",""));
+        vSeeds.push_back(CDNSSeedData("103.45.29.134", "103.45.29.1343"));
+        vSeeds.push_back(CDNSSeedData("103.45.29.134:18188","103.45.29.134:18188"));
+        vSeeds.push_back(CDNSSeedData("103.45.15.140","103.45.15.140"));
+        vSeeds.push_back(CDNSSeedData("103.45.15.140:18188","103.45.15.140:18188"));
+        vSeeds.push_back(CDNSSeedData("182.18.21.43","182.18.21.43"));
+        vSeeds.push_back(CDNSSeedData("182.18.21.43:18188","182.18.21.43:18188"));
+        vSeeds.push_back(CDNSSeedData("103.45.107.197","103.45.107.197"));
+        vSeeds.push_back(CDNSSeedData("103.45.107.197:18188","103.45.107.197:18188"));
+        vSeeds.push_back(CDNSSeedData("103.45.130.54","103.45.130.54"));
+        vSeeds.push_back(CDNSSeedData("103.45.130.54:18188","103.45.130.54:18188"));
+        vSeeds.push_back(CDNSSeedData("",""));
 
         // https://en.bitcoin.it/wiki/List_of_address_prefixes, make public address always start as character 'C'. 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
