@@ -1,5 +1,6 @@
 *_plugin_import.cpp
 release/
+.vscode/
 Makefile.*
 *.stash
 object_script.*
