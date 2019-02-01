@@ -12,8 +12,8 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    // unitlist.append(mBTC);
+    // unitlist.append(uBTC);
     return unitlist;
 }
 
@@ -34,7 +34,7 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("CNY");
+    case BTC: return QString("CNYF");
     case mBTC: return QString("mBLK");
     case uBTC: return QString::fromUtf8("μCNY");
     default: return QString("???");
@@ -45,7 +45,7 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("CNY");
+    case BTC: return QString("CNYF");
     case mBTC: return QString("Milli-CNY (1 / 1,000)");
     case uBTC: return QString("Micro-CNY (1 / 1,000,000)");
     default: return QString("???");
