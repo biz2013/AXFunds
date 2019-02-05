@@ -112,6 +112,10 @@ public:
         vSeeds.push_back(CDNSSeedData("34.219.113.24:18188", "34.219.113.24:18188"));
         vSeeds.push_back(CDNSSeedData("34.221.6.62", "34.221.6.62"));
         vSeeds.push_back(CDNSSeedData("34.221.6.62:18188", "34.221.6.62:18188"));
+        vSeeds.push_back(CDNSSeedData("50.112.238.35", "50.112.238.35"));
+        vSeeds.push_back(CDNSSeedData("50.112.238.35:18188", "50.112.238.35:18188"));
+        vSeeds.push_back(CDNSSeedData("54.70.85.148", "54.70.85.148"));
+        vSeeds.push_back(CDNSSeedData("54.70.85.148:18188", "54.70.85.148:18188"));
         vSeeds.push_back(CDNSSeedData("",""));
 
         // https://en.bitcoin.it/wiki/List_of_address_prefixes, make public address always start as character 'C'. 
